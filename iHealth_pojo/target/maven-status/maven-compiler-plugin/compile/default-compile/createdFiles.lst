@@ -1,0 +1,13 @@
+com\yiwei\pojo\Member.class
+com\yiwei\pojo\PageResult.class
+com\yiwei\pojo\CheckItem.class
+com\yiwei\pojo\User.class
+com\yiwei\pojo\Menu.class
+com\yiwei\pojo\Permission.class
+com\yiwei\pojo\QueryPageBean.class
+com\yiwei\pojo\Role.class
+com\yiwei\pojo\Order.class
+com\yiwei\pojo\Result.class
+com\yiwei\pojo\Setmeal.class
+com\yiwei\pojo\CheckGroup.class
+com\yiwei\pojo\OrderSetting.class

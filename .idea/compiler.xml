@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="iHealth_common" />
+        <module name="iHealth_dao" />
+        <module name="iHealth_interface" />
+        <module name="iHealth_jobs" />
+        <module name="iHealth_mobile_web" />
+        <module name="iHealth_pojo" />
+        <module name="iHealth_service" />
+        <module name="iHealth_web" />
+        <module name="Spring_Security" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="iHealth_common" target="1.8" />
+      <module name="iHealth_dao" target="1.8" />
+      <module name="iHealth_interface" target="1.8" />
+      <module name="iHealth_jobs" target="1.8" />
+      <module name="iHealth_mobile_web" target="1.8" />
+      <module name="iHealth_parent" target="1.8" />
+      <module name="iHealth_pojo" target="1.8" />
+      <module name="iHealth_service" target="1.8" />
+      <module name="iHealth_web" target="1.8" />
+      <module name="Spring_Security" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

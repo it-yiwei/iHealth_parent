@@ -1,0 +1,96 @@
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yiwei.dao.SetmealDao">
+    
+    <!--新增检查组，并且返回自增主键-->
+    <insert id="addSetmeal" parameterType="Setmeal">
+        insert into t_setmeal
+        (code,name,sex,age,helpCode,price,remark,attention,img)
+        values
+        (#{code},#{name},#{sex},#{age},#{helpCode},#{price},#{remark},#{attention},#{img})
+        <selectKey order="AFTER" keyProperty="id" resultType="int">
+            SELECT LAST_INSERT_ID()
+        </selectKey>
+    </insert>
+
+    <!--往中间表添加关联-->
+    <insert id="setSetmealIdAndCheckgroupId" parameterType="map">
+        insert into t_setmeal_checkgroup (setmeal_id,checkgroup_id) values (#{setmealId},#{checkgroupId});
+    </insert>
+
+    <!--根据条件查询检查组-->
+    <select id="selectByCondition" parameterType="string" resultType="Setmeal">
+        select * from t_setmeal
+        <where>
+            <if test="_parameter != null and _parameter != ''">
+                code = #{value} or name = #{value} or helpCode = #{value}
+            </if>
+        </where>
+    </select>
+
+    <!--根据id查询套餐-->
+
+    <!--结果map-->
+    <!--<resultMap id="baseResultMap" type="Setmeal">
+        <id column="id" property="id"/>
+        <result column="name" property="name"/>
+        <result column="code" property="code"/>
+        <result column="helpCode" property="helpCode"/>
+        <result column="sex" property="sex"/>
+        <result column="age" property="age"/>
+        <result column="price" property="price"/>
+        <result column="remark" property="remark"/>
+        <result column="attention" property="attention"/>
+        <result column="img" property="img"/>
+    </resultMap>
+
+    <resultMap id="setmealMap" type="Setmeal" extends="baseResultMap">
+        <collection property="checkGroups" ofType="checkGroup"
+                    column="id" select="com.yiwei.dao.CheckGroupDao.findCheckGroupById">
+        </collection>
+    </resultMap>
+
+
+    &lt;!&ndash;查询语句&ndash;&gt;
+    <select id="findById" parameterType="int" resultMap="setmealMap">
+        select * from t_setmeal WHERE id = #{id}
+    </select>-->
+
+    <!--多对多查询-->
+    <resultMap id="baseResultMap" type="Setmeal">
+        <!--设置属性和表中字段映射关系-->
+        <id column="id" property="id"/>
+        <result column="name" property="name"/>
+        <result column="code" property="code"/>
+        <result column="helpCode" property="helpCode"/>
+        <result column="sex" property="sex"/>
+        <result column="age" property="age"/>
+        <result column="price" property="price"/>
+        <result column="remark" property="remark"/>
+        <result column="attention" property="attention"/>
+        <result column="img" property="img"/>
+    </resultMap>
+
+
+    <!--extends继承
+    应用场景?
+    -->
+    <resultMap id="findByIdResultMap" type="Setmeal" extends="baseResultMap">
+        <!--collection标签查询检查组数据
+        property:关联查询对象属性
+        ofType：集合中数据类型设置
+        javaType:实体类对象中类型
+        select：关联查询语句设置
+        column：查询条件 套餐id
+        -->
+        <collection property="checkGroups"
+                    select="com.yiwei.dao.CheckGroupDao.findCheckGroupById" column="id"/>
+    </resultMap>
+
+    <!--根据套餐id查询（套餐数据+检查组数据+检查项数据）-->
+    <select id="findById" parameterType="int" resultMap="findByIdResultMap">
+        select * from t_setmeal where id =#{id}
+    </select>
+
+</mapper>

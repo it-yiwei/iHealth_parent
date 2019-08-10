@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:security="http://www.springframework.org/schema/security"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                            http://www.springframework.org/schema/beans/spring-beans.xsd
+                            http://www.springframework.org/schema/mvc
+                            http://www.springframework.org/schema/mvc/spring-mvc.xsd
+                            http://code.alibabatech.com/schema/dubbo
+                            http://code.alibabatech.com/schema/dubbo/dubbo.xsd
+                            http://www.springframework.org/schema/context
+                            http://www.springframework.org/schema/context/spring-context.xsd
+                            http://www.springframework.org/schema/security
+                            http://www.springframework.org/schema/security/spring-security.xsd">
+
+    <!--匿名访问-->
+    <security:http pattern="/pages/memberReport.html" security="none"/>
+
+    <!--1.配置需要权限才能访问的资源
+             auto-config属性: true 自动配置
+             use-expressions属性: false 不使用表达式
+    -->
+    <security:http auto-config="true" use-expressions="true">
+
+        <!--配置拦截的路径 pattern属性: 拦截的路径规则; access属性:需要什么角色才能访问-->
+        <security:intercept-url pattern="/pages/**" access="isAuthenticated()"/>
+
+        <!--设置登录页面-->
+        <security:form-login login-page="/login.html" login-processing-url="/login.do"
+                             default-target-url="/pages/main.html" always-use-default-target="true"
+                             authentication-failure-url="/login.html"/>
+
+        <!--退出登录-->
+        <security:logout logout-success-url="/login.html" logout-url="/logout.do" invalidate-session="true"/>
+
+        <!--CsrfFilter过滤器-->
+        <security:csrf disabled="true"/>
+
+        <security:headers>
+            <!--设置在页面可以通过iframe访问受保护的页面，默认为不允许访问-->
+            <security:frame-options policy="SAMEORIGIN"></security:frame-options>
+        </security:headers>
+
+    </security:http>
+
+    <!--3.配置认证管理器-->
+    <security:authentication-manager>
+        <security:authentication-provider user-service-ref="securityUserService">
+            <security:password-encoder ref="bCryptPasswordEncoder"/>
+        </security:authentication-provider>
+    </security:authentication-manager>
+
+    <!--加密-->
+    <bean id="bCryptPasswordEncoder"
+          class="org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder"/>
+
+</beans>

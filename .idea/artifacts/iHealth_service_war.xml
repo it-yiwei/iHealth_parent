@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="iHealth_service:war">
+    <output-path>$PROJECT_DIR$/iHealth_service/target</output-path>
+    <root id="archive" name="iHealth_service-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="iHealth_service:war exploded" />
+    </root>
+  </artifact>
+</component>

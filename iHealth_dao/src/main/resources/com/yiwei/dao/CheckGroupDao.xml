@@ -1,0 +1,108 @@
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yiwei.dao.CheckGroupDao">
+    
+    <!--新增检查组，并且返回自增主键-->
+    <insert id="addCheckGroup" parameterType="CheckGroup">
+        insert into t_checkgroup(code,name,sex,helpCode,remark,attention) values (#{code},#{name},#{sex},#{helpCode},#{remark},#{attention})
+        <selectKey order="AFTER" keyProperty="id" resultType="int">
+            SELECT LAST_INSERT_ID()
+        </selectKey>
+    </insert>
+    
+    <!--往中间表添加关联-->
+    <insert id="setCheckGroupAndCheckItem" parameterType="map">
+        insert into t_checkgroup_checkitem (checkgroup_id,checkitem_id) values (#{checkGroupId},#{checkItemId});
+    </insert>
+    
+    <!--根据条件查询检查组-->
+    <select id="selectByCondition" parameterType="string" resultType="CheckGroup">
+        select * from t_checkgroup
+        <where>
+            <if test="_parameter != null and _parameter != ''">
+                code = #{value} or name = #{value} or helpCode = #{value}
+            </if>
+        </where>
+    </select>
+
+    <!--更新检查表-->
+    <update id="edit" parameterType="CheckGroup">
+        UPDATE t_checkgroup
+        <set>
+            <if test="code != null">
+                code = #{code},
+            </if>
+            <if test="name != null">
+                name = #{name},
+            </if>
+            <if test="helpCode != null">
+                helpCode = #{helpCode},
+            </if>
+            <if test="sex != null">
+                sex = #{sex},
+            </if>
+            <if test="remark != null">
+                remark = #{remark},
+            </if>
+            <if test="attention != null">
+                attention = #{attention},
+            </if>
+        </set>
+
+        WHERE id=#{id}
+
+    </update>
+
+    
+    <!--根据套餐Id查询检查组-->
+    
+    <!--结果map-->
+    <!--<resultMap id="baseResultMap" type="CheckGroup">
+        <id column="id" property="id"/>
+        <result column="name" property="name"/>
+        <result column="code" property="code"/>
+        <result column="helpCode" property="helpCode"/>
+        <result column="sex" property="sex"/>
+        <result column="remark" property="remark"/>
+        <result column="attention" property="attention"/>
+    </resultMap>
+
+    <resultMap id="findByIdResultMap" type="CheckGroup" extends="baseResultMap">
+        <collection property="checkItems" ofType="checkItem"
+                    column="id" select="com.yiwei.dao.checkItemDao.findCheckItemById"/>
+    </resultMap>
+    
+    <select id="findCheckGroupById" parameterType="int" resultMap="findByIdResultMap">
+        select * from t_checkgroup  where id
+        in (select checkgroup_id from t_setmeal_checkgroup where setmeal_id=#{id})
+    </select>-->
+
+
+    <!---多对多查询检查组+检查项-->
+    <resultMap id="baseResultMap" type="CheckGroup">
+        <id column="id" property="id"/>
+        <result column="name" property="name"/>
+        <result column="code" property="code"/>
+        <result column="helpCode" property="helpCode"/>
+        <result column="sex" property="sex"/>
+        <result column="remark" property="remark"/>
+        <result column="attention" property="attention"/>
+    </resultMap>
+
+    <!--extends-->
+    <resultMap id="findByIdResultMap" type="CheckGroup" extends="baseResultMap">
+        <!--查询检查项数据-->
+        <collection property="checkItems"
+                    select="com.yiwei.dao.checkItemDao.findCheckItemById" column="id"/>
+    </resultMap>
+
+
+    <!--条件是套餐id查询检查组数据-->
+    <select id="findCheckGroupById" parameterType="int" resultMap="findByIdResultMap">
+        select tc.* from t_checkgroup tc,t_setmeal_checkgroup tsc where tc.id = tsc.checkgroup_id
+        and tsc.setmeal_id = #{id}
+    </select>
+
+
+</mapper>

@@ -1,0 +1,8 @@
+com\yiwei\service\SetmealServiceImp.class
+com\yiwei\service\CheckItemServiceImp.class
+com\yiwei\service\ReportServiceImp.class
+com\yiwei\service\MemberServiceImp.class
+com\yiwei\service\UserServiceImp.class
+com\yiwei\service\CheckGroupServiceImp.class
+com\yiwei\service\OrderSettingServiceImp.class
+com\yiwei\service\OrderServiceImp.class

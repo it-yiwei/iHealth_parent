@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="../plugins/echarts/echarts.js"></script>
+    <script src="../js/vue.js"></script>
+    <script src="../js/axios-0.18.0.js"></script>
+    <title>会员数量统计</title>
+</head>
+<body>
+<script type="text/javascript">
+    // 基于准备好的dom，初始化echarts实例
+    var myChart = echarts.init(document.getElementById('main'));
+
+    // 使用刚指定的配置项和数据显示图表。
+    axios.get("/report/getMemberReport.do").then(res=>{
+        // 指定图表的配置项和数据
+        myChart.setOption({
+            title: {
+                text: '会员数量统计'
+            },
+            tooltip: {},
+            legend: {
+                data:['会员数量统计']
+            },
+            xAxis: {
+                data: res.data.data.months
+            },
+            yAxis: {},
+            series: [{
+                name: '会员数量',
+                type: 'line',
+                data: res.data.data.memberNumber
+            }]
+        });
+    })
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/tx
+       http://www.springframework.org/schema/tx/spring-tx.xsd
+       http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+
+
+    <!--配置应用名称 name属性: 随便取,不要重复 建议写应用名-->
+    <dubbo:application name="iHealth_service"/>
+
+    <!--配置注册中心地址 zookeeper所在服务器的ip地址端口号为2181-->
+    <dubbo:registry address="zookeeper://127.0.0.1:2181"/>
+
+    <!--配置注册 协议和port   端口默认是20880-->
+    <dubbo:protocol name="dubbo" port="20880"/>
+
+    <!--配置包扫描 加入@Service注解的类会被发布为服务-->
+    <dubbo:annotation package="com.yiwei.service"/>
+
+    <!--管理事务-->
+    <bean name="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+
+    <!--注解开启事务-->
+    <tx:annotation-driven transaction-manager="transactionManager" proxy-target-class="true"/>
+</beans>

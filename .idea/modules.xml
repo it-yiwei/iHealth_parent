@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Spring_Security/Spring_Security.iml" filepath="$PROJECT_DIR$/Spring_Security/Spring_Security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iHealth_common/iHealth_common.iml" filepath="$PROJECT_DIR$/iHealth_common/iHealth_common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iHealth_dao/iHealth_dao.iml" filepath="$PROJECT_DIR$/iHealth_dao/iHealth_dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iHealth_interface/iHealth_interface.iml" filepath="$PROJECT_DIR$/iHealth_interface/iHealth_interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iHealth_jobs/iHealth_jobs.iml" filepath="$PROJECT_DIR$/iHealth_jobs/iHealth_jobs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iHealth_mobile_web/iHealth_mobile_web.iml" filepath="$PROJECT_DIR$/iHealth_mobile_web/iHealth_mobile_web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iHealth_parent.iml" filepath="$PROJECT_DIR$/iHealth_parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iHealth_pojo/iHealth_pojo.iml" filepath="$PROJECT_DIR$/iHealth_pojo/iHealth_pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iHealth_service/iHealth_service.iml" filepath="$PROJECT_DIR$/iHealth_service/iHealth_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iHealth_web/iHealth_web.iml" filepath="$PROJECT_DIR$/iHealth_web/iHealth_web.iml" />
+    </modules>
+  </component>
+</project>

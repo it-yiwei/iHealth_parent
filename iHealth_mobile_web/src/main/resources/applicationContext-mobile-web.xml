@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd">
+
+    <!--当前应用名称-->
+    <dubbo:application name="mobile_web"/>
+
+    <!--连接服务注册中心zookeeper-->
+    <dubbo:registry address="zookeeper://127.0.0.1:2181"/>
+
+    <!--扫描方式暴露消费者接口-->
+    <dubbo:annotation package="com.yiwei.web"/>
+
+    <!--启动检查-->
+    <dubbo:consumer check="false" timeout="600000"/>
+
+
+    <mvc:annotation-driven>
+        <!--使用fastjson帮助自动处理返回对象数据-->
+        <mvc:message-converters register-defaults="true">
+            <bean class="com.alibaba.fastjson.support.spring.FastJsonHttpMessageConverter">
+                <property name="supportedMediaTypes" value="application/json"/>
+                <!--WriteMapNullValue：map是空值的时候 此节点就省略了
+                 WriteDateUseDateFormat: new Date() ==>CST 20xxx  ==>2019-07-26 hh:mm:ss
+                 -->
+                <property name="features">
+                    <list>
+                        <value>WriteMapNullValue</value>
+                        <value>WriteDateUseDateFormat</value>
+                    </list>
+                </property>
+            </bean>
+        </mvc:message-converters>
+    </mvc:annotation-driven>
+
+</beans>

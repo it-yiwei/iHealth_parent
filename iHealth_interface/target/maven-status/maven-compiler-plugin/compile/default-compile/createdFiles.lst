@@ -1,0 +1,8 @@
+com\yiwei\service\MemberService.class
+com\yiwei\service\ReportService.class
+com\yiwei\service\OrderSettingService.class
+com\yiwei\service\OrderService.class
+com\yiwei\service\SetmealService.class
+com\yiwei\service\CheckGroupService.class
+com\yiwei\service\UserService.class
+com\yiwei\service\CheckItemService.class

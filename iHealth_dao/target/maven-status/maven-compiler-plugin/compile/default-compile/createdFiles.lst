@@ -1,0 +1,9 @@
+com\yiwei\dao\OrderSettingDao.class
+com\yiwei\dao\MemberDao.class
+com\yiwei\dao\checkItemDao.class
+com\yiwei\dao\UserDao.class
+com\yiwei\dao\RoleDao.class
+com\yiwei\dao\SetmealDao.class
+com\yiwei\dao\CheckGroupDao.class
+com\yiwei\dao\PermissionDao.class
+com\yiwei\dao\OrderDao.class

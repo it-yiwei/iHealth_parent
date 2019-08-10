@@ -1,0 +1,59 @@
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yiwei.dao.UserDao">
+    <select id="selectByCondition" parameterType="string" resultType="user">
+        select * from t_user
+        <if test="value != null and value.length > 0">
+            <where>
+                username = #{value}
+            </where>
+        </if>
+    </select>
+
+    <!--新增检查组，并且返回自增主键-->
+    <insert id="addUser" parameterType="user">
+        insert into t_user(birthday,gender,username,password,remark,station,telephone) values (#{birthday},#{gender},#{username},#{password},#{remark},#{station},#{telephone})
+        <selectKey order="AFTER" keyProperty="id" resultType="int">
+            SELECT LAST_INSERT_ID()
+        </selectKey>
+    </insert>
+
+    <!--往中间表添加关联-->
+    <insert id="setUserIdAndRoleId" parameterType="map">
+        insert into t_user_role (user_id,role_id) values (#{userId},#{roleId});
+    </insert>
+
+    <!--更新用户表-->
+    <update id="edit" parameterType="user">
+        UPDATE t_user
+        <set>
+            <if test="birthday != null">
+                birthday = #{birthday},
+            </if>
+            <if test="gender != null">
+                gender = #{gender},
+            </if>
+            <if test="username != null">
+                username = #{username},
+            </if>
+            <if test="password != null">
+                password = #{password},
+            </if>
+            <if test="remark != null">
+                remark = #{remark},
+            </if>
+            <if test="station != null">
+                station = #{station},
+            </if>
+            <if test="telephone != null">
+                telephone = #{telephone},
+            </if>
+        </set>
+
+        WHERE id=#{id}
+
+    </update>
+
+
+</mapper>
