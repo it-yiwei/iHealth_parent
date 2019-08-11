@@ -7,107 +7,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="147fb4de-a531-41d3-8d53-8213352d5be8" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/iHealth_web/src/main/webapp/pages/permission.html" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__c3p0_c3p0_0_9_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__c3p0_c3p0_0_9_1_1.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_0_9.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_0_9.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_dubbo_2_6_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_dubbo_2_6_0.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_47.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_47.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_aliyun_aliyun_java_sdk_core_3_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_aliyun_aliyun_java_sdk_core_3_3_1.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_aliyun_aliyun_java_sdk_dysmsapi_1_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_aliyun_aliyun_java_sdk_dysmsapi_1_0_0.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_0_9_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_0_9_5.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_miemiedev_mybatis_paginator_1_2_15.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_miemiedev_mybatis_paginator_1_2_15.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_4_1_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_4_1_4.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_sgroschupf_zkclient_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_sgroschupf_zkclient_0_1.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_virtuald_curvesapi_1_03.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_virtuald_curvesapi_1_03.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_6_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_6_2.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_qiniu_happy_dns_java_0_1_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_qiniu_happy_dns_java_0_1_4.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_qiniu_qiniu_java_sdk_7_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_qiniu_qiniu_java_sdk_7_2_0.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_3_1.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_8_0.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_client_1_18_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_client_1_18_1.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_core_1_18_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_core_1_18_1.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_8_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_8_2.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_digester_commons_digester_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_digester_commons_digester_2_0.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_1.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_3_7_0_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_3_7_0_Final.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javassist_javassist_3_12_1_GA.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javassist_javassist_3_12_1_GA.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jline_jline_0_9_94.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jline_jline_0_9_94.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_16.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_16.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_32.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_32.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_jxls_jxls_core_1_0_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_jxls_jxls_core_1_0_6.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_jexl_2_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_jexl_2_0_1.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_3.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_3_14.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_3_14.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_3_14.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_3_14.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_3_14.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_3_14.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_2_6_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_2_6_0.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_7.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_7.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_13.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_13.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_20_0_GA.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_20_0_GA.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_netty_netty_3_2_5_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_netty_netty_3_2_5_Final.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20170516.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20170516.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_5.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_1.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_quartz_scheduler_quartz_2_2_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_quartz_scheduler_quartz_2_2_1.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_quartz_scheduler_quartz_jobs_2_2_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_quartz_scheduler_quartz_jobs_2_2_1.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_6_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_6_6.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_2.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_6_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_6_1.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_acl_5_0_5_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_acl_5_0_5_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_0_5_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_0_5_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_0_5_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_0_5_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_taglibs_5_0_5_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_taglibs_5_0_5_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_0_5_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_0_5_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_0_2_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_0_2_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_0_2_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_0_2_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_0_2_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_0_2_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_0_2_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_0_2_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_0_2_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_0_2_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_0_2_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_0_2_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_0_2_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_0_2_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_2_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_2_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_0_2_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_0_2_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jms_5_0_2_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jms_5_0_2_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_5_0_2_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_5_0_2_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_0_2_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_0_2_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_0_2_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_0_2_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_0_2_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_0_2_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_0_2_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_0_2_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_7_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_7_0.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Spring_Security/Spring_Security.iml" afterPath="$PROJECT_DIR$/Spring_Security/Spring_Security.iml" />
-      <change beforePath="$PROJECT_DIR$/iHealth_common/iHealth_common.iml" afterPath="$PROJECT_DIR$/iHealth_common/iHealth_common.iml" />
       <change beforePath="$PROJECT_DIR$/iHealth_common/src/main/java/com/yiwei/constant/MessageConstant.java" afterPath="$PROJECT_DIR$/iHealth_common/src/main/java/com/yiwei/constant/MessageConstant.java" />
-      <change beforePath="$PROJECT_DIR$/iHealth_dao/iHealth_dao.iml" afterPath="$PROJECT_DIR$/iHealth_dao/iHealth_dao.iml" />
+      <change beforePath="$PROJECT_DIR$/iHealth_common/target/classes/com/yiwei/constant/MessageConstant.class" afterPath="$PROJECT_DIR$/iHealth_common/target/classes/com/yiwei/constant/MessageConstant.class" />
       <change beforePath="$PROJECT_DIR$/iHealth_dao/src/main/java/com/yiwei/dao/PermissionDao.java" afterPath="$PROJECT_DIR$/iHealth_dao/src/main/java/com/yiwei/dao/PermissionDao.java" />
-      <change beforePath="$PROJECT_DIR$/iHealth_dao/src/main/resources/jdbc.properties" afterPath="$PROJECT_DIR$/iHealth_dao/src/main/resources/jdbc.properties" />
-      <change beforePath="$PROJECT_DIR$/iHealth_dao/target/classes/com/yiwei/dao/PermissionDao.class" afterPath="$PROJECT_DIR$/iHealth_dao/target/classes/com/yiwei/dao/PermissionDao.class" />
-      <change beforePath="$PROJECT_DIR$/iHealth_dao/target/classes/jdbc.properties" afterPath="$PROJECT_DIR$/iHealth_dao/target/classes/jdbc.properties" />
-      <change beforePath="$PROJECT_DIR$/iHealth_interface/iHealth_interface.iml" afterPath="$PROJECT_DIR$/iHealth_interface/iHealth_interface.iml" />
-      <change beforePath="$PROJECT_DIR$/iHealth_jobs/iHealth_jobs.iml" afterPath="$PROJECT_DIR$/iHealth_jobs/iHealth_jobs.iml" />
-      <change beforePath="$PROJECT_DIR$/iHealth_mobile_web/iHealth_mobile_web.iml" afterPath="$PROJECT_DIR$/iHealth_mobile_web/iHealth_mobile_web.iml" />
-      <change beforePath="$PROJECT_DIR$/iHealth_pojo/iHealth_pojo.iml" afterPath="$PROJECT_DIR$/iHealth_pojo/iHealth_pojo.iml" />
-      <change beforePath="$PROJECT_DIR$/iHealth_service/iHealth_service.iml" afterPath="$PROJECT_DIR$/iHealth_service/iHealth_service.iml" />
-      <change beforePath="$PROJECT_DIR$/iHealth_service/target/iHealth_service-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/iHealth_service/target/iHealth_service-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
-      <change beforePath="$PROJECT_DIR$/iHealth_service/target/iHealth_service-1.0-SNAPSHOT/WEB-INF/lib/iHealth_common-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/iHealth_service/target/iHealth_service-1.0-SNAPSHOT/WEB-INF/lib/iHealth_common-1.0-SNAPSHOT.jar" />
-      <change beforePath="$PROJECT_DIR$/iHealth_service/target/iHealth_service-1.0-SNAPSHOT/WEB-INF/lib/iHealth_dao-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/iHealth_service/target/iHealth_service-1.0-SNAPSHOT/WEB-INF/lib/iHealth_dao-1.0-SNAPSHOT.jar" />
-      <change beforePath="$PROJECT_DIR$/iHealth_service/target/iHealth_service-1.0-SNAPSHOT/WEB-INF/lib/iHealth_interface-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/iHealth_service/target/iHealth_service-1.0-SNAPSHOT/WEB-INF/lib/iHealth_interface-1.0-SNAPSHOT.jar" />
-      <change beforePath="$PROJECT_DIR$/iHealth_service/target/iHealth_service-1.0-SNAPSHOT/WEB-INF/lib/iHealth_pojo-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/iHealth_service/target/iHealth_service-1.0-SNAPSHOT/WEB-INF/lib/iHealth_pojo-1.0-SNAPSHOT.jar" />
-      <change beforePath="$PROJECT_DIR$/iHealth_web/iHealth_web.iml" afterPath="$PROJECT_DIR$/iHealth_web/iHealth_web.iml" />
+      <change beforePath="$PROJECT_DIR$/iHealth_dao/src/main/java/com/yiwei/dao/RoleDao.java" afterPath="$PROJECT_DIR$/iHealth_dao/src/main/java/com/yiwei/dao/RoleDao.java" />
+      <change beforePath="$PROJECT_DIR$/iHealth_interface/src/main/java/com/yiwei/service/RoleService.java" afterPath="$PROJECT_DIR$/iHealth_interface/src/main/java/com/yiwei/service/RoleService.java" />
+      <change beforePath="$PROJECT_DIR$/iHealth_service/src/main/java/com/yiwei/service/RoleServiceImp.java" afterPath="$PROJECT_DIR$/iHealth_service/src/main/java/com/yiwei/service/RoleServiceImp.java" />
+      <change beforePath="$PROJECT_DIR$/iHealth_web/src/main/java/com/yiwei/web/RoleController.java" afterPath="$PROJECT_DIR$/iHealth_web/src/main/java/com/yiwei/web/RoleController.java" />
       <change beforePath="$PROJECT_DIR$/iHealth_web/src/main/webapp/pages/main.html" afterPath="$PROJECT_DIR$/iHealth_web/src/main/webapp/pages/main.html" />
-      <change beforePath="$PROJECT_DIR$/iHealth_web/target/iHealth_web-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/iHealth_web/target/iHealth_web-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
-      <change beforePath="$PROJECT_DIR$/iHealth_web/target/iHealth_web-1.0-SNAPSHOT/WEB-INF/lib/iHealth_common-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/iHealth_web/target/iHealth_web-1.0-SNAPSHOT/WEB-INF/lib/iHealth_common-1.0-SNAPSHOT.jar" />
-      <change beforePath="$PROJECT_DIR$/iHealth_web/target/iHealth_web-1.0-SNAPSHOT/WEB-INF/lib/iHealth_interface-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/iHealth_web/target/iHealth_web-1.0-SNAPSHOT/WEB-INF/lib/iHealth_interface-1.0-SNAPSHOT.jar" />
-      <change beforePath="$PROJECT_DIR$/iHealth_web/target/iHealth_web-1.0-SNAPSHOT/WEB-INF/lib/iHealth_pojo-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/iHealth_web/target/iHealth_web-1.0-SNAPSHOT/WEB-INF/lib/iHealth_pojo-1.0-SNAPSHOT.jar" />
-      <change beforePath="$PROJECT_DIR$/iHealth_web/target/iHealth_web-1.0-SNAPSHOT/pages/main.html" afterPath="$PROJECT_DIR$/iHealth_web/target/iHealth_web-1.0-SNAPSHOT/pages/main.html" />
+      <change beforePath="$PROJECT_DIR$/iHealth_web/src/main/webapp/pages/permission.html" afterPath="$PROJECT_DIR$/iHealth_web/src/main/webapp/pages/permission.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -159,86 +68,70 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="402">
-      <file leaf-file-name="setmeal.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/iHealth_web/src/main/webapp/pages/setmeal.html">
+      <file leaf-file-name="role.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/iHealth_web/src/main/webapp/pages/role.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="301" column="36" lean-forward="false" selection-start-line="301" selection-start-column="36" selection-end-line="301" selection-end-column="36" />
+            <state relative-caret-position="318">
+              <caret line="467" column="61" lean-forward="false" selection-start-line="467" selection-start-column="55" selection-end-line="467" selection-end-column="61" />
+              <folding>
+                <marker date="1565522586107" expanded="false" signature="7565:7577" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RoleController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/iHealth_web/src/main/java/com/yiwei/web/RoleController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="77" column="0" lean-forward="true" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="permission.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/iHealth_web/src/main/webapp/pages/permission.html">
+      <file leaf-file-name="RoleService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/iHealth_interface/src/main/java/com/yiwei/service/RoleService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="310" column="63" lean-forward="true" selection-start-line="310" selection-start-column="63" selection-end-line="310" selection-end-column="63" />
-              <folding>
-                <element signature="n#style#0;n#el-input#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1565510740142" expanded="false" signature="7569:7581" ph="..." />
-                <marker date="1565510740142" expanded="false" signature="14202:14214" ph="..." />
-              </folding>
+            <state relative-caret-position="120">
+              <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Permission.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/iHealth_pojo/src/main/java/com/yiwei/pojo/Permission.java">
+      <file leaf-file-name="RoleServiceImp.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/iHealth_service/src/main/java/com/yiwei/service/RoleServiceImp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="13" column="30" lean-forward="false" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="30" />
-              <folding>
-                <element signature="e#346#352#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="495">
+              <caret line="59" column="24" lean-forward="true" selection-start-line="59" selection-start-column="24" selection-end-line="59" selection-end-column="24" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PermissionController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/iHealth_web/src/main/java/com/yiwei/web/PermissionController.java">
+      <file leaf-file-name="RoleDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/iHealth_dao/src/main/java/com/yiwei/dao/RoleDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="81" column="59" lean-forward="true" selection-start-line="81" selection-start-column="59" selection-end-line="81" selection-end-column="59" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="615">
+              <caret line="32" column="36" lean-forward="false" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PermissionServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/iHealth_service/src/main/java/com/yiwei/service/PermissionServiceImpl.java">
+      <file leaf-file-name="RoleDao.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/iHealth_dao/src/main/resources/com/yiwei/dao/RoleDao.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="60" column="16" lean-forward="false" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="16" />
+            <state relative-caret-position="525">
+              <caret line="36" column="43" lean-forward="false" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1260#1261#0" expanded="true" />
-                <element signature="e#1305#1306#0" expanded="true" />
-                <element signature="e#1386#1387#0" expanded="true" />
-                <element signature="e#1440#1441#0" expanded="true" />
-                <element signature="e#1528#1529#0" expanded="true" />
-                <element signature="e#1587#1588#0" expanded="true" />
-                <element signature="e#1659#1660#0" expanded="true" />
-                <element signature="e#1705#1706#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PermissionDao.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/iHealth_dao/src/main/resources/com/yiwei/dao/PermissionDao.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="42" column="45" lean-forward="true" selection-start-line="42" selection-start-column="45" selection-end-line="42" selection-end-column="45" />
-              <folding>
-                <marker date="1565511794257" expanded="true" signature="364:390" ph="SELECT * FRO... t_permission" />
-                <marker date="1565511794257" expanded="true" signature="643:736" ph="INSERT into t_permission... " />
-                <marker date="1565511794257" expanded="true" signature="833:874" ph="DELETE FROM t_permission... " />
-                <marker date="1565511794257" expanded="true" signature="1011:1054" ph="SELECT * FRO... t_permission" />
-                <marker date="1565511794257" expanded="true" signature="1159:1178" ph="UPDATE t_permission... " />
-                <marker date="1565511794257" expanded="true" signature="1159:1523" ph="UPDATE t_permission... " />
+                <marker date="1565523253924" expanded="true" signature="354:374" ph="SELECT * FRO... t_role" />
+                <marker date="1565523253924" expanded="true" signature="627:714" ph="INSERT INTO t_role... " />
+                <marker date="1565523253924" expanded="true" signature="799:822" ph="SELECT LAST_... " />
+                <marker date="1565523253924" expanded="true" signature="946:1034" ph="INSERT INTO t_role_permission... " />
+                <marker date="1565523253924" expanded="true" signature="1153:1204" ph="DELETE FROM t_role_permission... " />
+                <marker date="1565523253924" expanded="true" signature="1298:1333" ph="DELETE FROM t_role... " />
               </folding>
             </state>
           </provider>
@@ -247,8 +140,8 @@
       <file leaf-file-name="UserDao.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/iHealth_dao/src/main/resources/com/yiwei/dao/UserDao.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="915">
-              <caret line="53" column="18" lean-forward="false" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
+            <state relative-caret-position="240">
+              <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
               <folding>
                 <marker date="1565486497535" expanded="true" signature="515:682" ph="insert into t_user... " />
                 <marker date="1565486497535" expanded="true" signature="763:786" ph="SELECT LAST_... " />
@@ -281,7 +174,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>handleAvatarSuccess</find>
       <find>imageUrl</find>
       <find>get</find>
       <find>查询</find>
@@ -309,8 +201,9 @@
       <find>findPage</find>
       <find>findCheckItemIdsByCheckGroupId</find>
       <find>checkitemIds</find>
-      <find>dataList</find>
       <find>formData</find>
+      <find>dataList</find>
+      <find>角色</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -329,8 +222,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Spring_Security/src/main/webapp/b.html" />
-        <option value="$PROJECT_DIR$/Spring_Security/src/main/webapp/a.html" />
         <option value="$PROJECT_DIR$/Spring_Security/src/main/resources/spring-security.xml" />
         <option value="$PROJECT_DIR$/Spring_Security/src/main/java/com/yiwei/controller/demo.java" />
         <option value="$PROJECT_DIR$/iHealth_web/src/main/webapp/WEB-INF/web.xml" />
@@ -360,10 +251,6 @@
         <option value="$PROJECT_DIR$/iHealth_web/src/main/webapp/pages/user.html" />
         <option value="$PROJECT_DIR$/iHealth_web/src/main/webapp/pages/checkgroup.html" />
         <option value="$PROJECT_DIR$/iHealth_service/src/main/java/com/yiwei/service/CheckGroupServiceImp.java" />
-        <option value="$PROJECT_DIR$/iHealth_web/src/main/java/com/yiwei/web/RoleController.java" />
-        <option value="$PROJECT_DIR$/iHealth_interface/src/main/java/com/yiwei/service/RoleService.java" />
-        <option value="$PROJECT_DIR$/iHealth_service/src/main/java/com/yiwei/service/RoleServiceImp.java" />
-        <option value="$PROJECT_DIR$/iHealth_dao/src/main/java/com/yiwei/dao/RoleDao.java" />
         <option value="$PROJECT_DIR$/iHealth_dao/src/main/resources/com/yiwei/dao/UserDao.xml" />
         <option value="$PROJECT_DIR$/iHealth_web/src/main/webapp/pages/user2.html" />
         <option value="$PROJECT_DIR$/iHealth_web/src/main/java/com/yiwei/web/UserController.java" />
@@ -371,15 +258,21 @@
         <option value="$PROJECT_DIR$/iHealth_service/src/main/java/com/yiwei/service/UserServiceImp.java" />
         <option value="$PROJECT_DIR$/iHealth_dao/src/main/java/com/yiwei/dao/UserDao.java" />
         <option value="$PROJECT_DIR$/iHealth_dao/src/main/resources/jdbc.properties" />
-        <option value="$PROJECT_DIR$/iHealth_web/src/main/webapp/pages/main.html" />
         <option value="$PROJECT_DIR$/iHealth_web/src/main/java/com/yiwei/web/PermissionContoller.java" />
-        <option value="$PROJECT_DIR$/iHealth_common/src/main/java/com/yiwei/constant/MessageConstant.java" />
+        <option value="$PROJECT_DIR$/iHealth_web/src/main/webapp/pages/main.html" />
         <option value="$PROJECT_DIR$/iHealth_web/src/main/webapp/pages/permission.html" />
+        <option value="$PROJECT_DIR$/iHealth_web/src/main/java/com/yiwei/web/PermissionController.java" />
         <option value="$PROJECT_DIR$/iHealth_interface/src/main/java/com/yiwei/service/PermissionService.java" />
         <option value="$PROJECT_DIR$/iHealth_service/src/main/java/com/yiwei/service/PermissionServiceImpl.java" />
         <option value="$PROJECT_DIR$/iHealth_dao/src/main/java/com/yiwei/dao/PermissionDao.java" />
-        <option value="$PROJECT_DIR$/iHealth_web/src/main/java/com/yiwei/web/PermissionController.java" />
         <option value="$PROJECT_DIR$/iHealth_dao/src/main/resources/com/yiwei/dao/PermissionDao.xml" />
+        <option value="$PROJECT_DIR$/iHealth_web/src/main/webapp/pages/role.html" />
+        <option value="$PROJECT_DIR$/iHealth_common/src/main/java/com/yiwei/constant/MessageConstant.java" />
+        <option value="$PROJECT_DIR$/iHealth_web/src/main/java/com/yiwei/web/RoleController.java" />
+        <option value="$PROJECT_DIR$/iHealth_interface/src/main/java/com/yiwei/service/RoleService.java" />
+        <option value="$PROJECT_DIR$/iHealth_service/src/main/java/com/yiwei/service/RoleServiceImp.java" />
+        <option value="$PROJECT_DIR$/iHealth_dao/src/main/java/com/yiwei/dao/RoleDao.java" />
+        <option value="$PROJECT_DIR$/iHealth_dao/src/main/resources/com/yiwei/dao/RoleDao.xml" />
       </list>
     </option>
   </component>
@@ -441,7 +334,7 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-6" />
-    <option name="y" value="3" />
+    <option name="y" value="6" />
     <option name="width" value="1935" />
     <option name="height" value="1018" />
   </component>
@@ -804,12 +697,8 @@
     <property name="SearchEverywhereHistoryKey" value="findPage&#9;null&#9;null" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\Java\练习代码\IdeaProjects\iHealth_parent\iHealth_web\src\main\webapp" />
-      <recent name="F:\Java\练习代码\IdeaProjects\iHealth_parent\Spring_Security\src\main\webapp\pages" />
-      <recent name="F:\Java\练习代码\IdeaProjects\iHealth_parent\Spring_Security\src\main\webapp\important" />
-      <recent name="F:\Java\练习代码\IdeaProjects\iHealth_parent\iHealth_mobile_web\src\main\java" />
-      <recent name="F:\Java\练习代码\IdeaProjects\iHealth_parent\iHealth_web\src\main\webapp\WEB-INF\demo" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.yiwei.service" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\java\idea_project\shizhan\parent\iHealth_parent\iHealth_web\src\main\webapp\pages" />
@@ -821,8 +710,12 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.yiwei.web" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.yiwei.service" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Java\练习代码\IdeaProjects\iHealth_parent\iHealth_web\src\main\webapp" />
+      <recent name="F:\Java\练习代码\IdeaProjects\iHealth_parent\Spring_Security\src\main\webapp\pages" />
+      <recent name="F:\Java\练习代码\IdeaProjects\iHealth_parent\Spring_Security\src\main\webapp\important" />
+      <recent name="F:\Java\练习代码\IdeaProjects\iHealth_parent\iHealth_mobile_web\src\main\java" />
+      <recent name="F:\Java\练习代码\IdeaProjects\iHealth_parent\iHealth_web\src\main\webapp\WEB-INF\demo" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1491,7 +1384,7 @@
       <workItem from="1565454356462" duration="191000" />
       <workItem from="1565454666119" duration="1003000" />
       <workItem from="1565486534265" duration="9339000" />
-      <workItem from="1565499328593" duration="10644000" />
+      <workItem from="1565499328593" duration="18725000" />
     </task>
     <task id="LOCAL-00001" summary="黑马健康">
       <created>1565453829841</created>
@@ -1500,7 +1393,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565453829841</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="黑马健康(完成权限数据动态维护)">
+      <created>1565512460696</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1565512460696</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1536,7 +1436,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="248300000" />
+    <option name="totallyTimeSpent" value="256381000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1568,7 +1468,7 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40046838" sideWeight="0.49328318" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40046838" sideWeight="0.49328318" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23927039" sideWeight="0.46" order="0" side_tool="false" content_ui="combo" />
@@ -1652,7 +1552,8 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="黑马健康" />
-    <option name="LAST_COMMIT_MESSAGE" value="黑马健康" />
+    <MESSAGE value="黑马健康(完成权限数据动态维护)" />
+    <option name="LAST_COMMIT_MESSAGE" value="黑马健康(完成权限数据动态维护)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1668,27 +1569,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/iHealth_web/src/main/webapp/pages/report_business.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="36" column="64" lean-forward="false" selection-start-line="36" selection-start-column="64" selection-end-line="36" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iHealth_web/src/main/java/com/yiwei/web/ReportController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2309">
-          <caret line="190" column="53" lean-forward="false" selection-start-line="190" selection-start-column="53" selection-end-line="190" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iHealth_web/src/main/webapp/pages/checkitem.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7852">
-          <caret line="379" column="53" lean-forward="true" selection-start-line="379" selection-start-column="53" selection-end-line="379" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/iHealth_service/src/main/java/com/yiwei/service/ReportServiceImp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-286">
@@ -1728,41 +1608,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="66" column="31" lean-forward="true" selection-start-line="66" selection-start-column="31" selection-end-line="66" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iHealth_web/src/main/java/com/yiwei/web/RoleController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="42" column="57" lean-forward="true" selection-start-line="42" selection-start-column="57" selection-end-line="42" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iHealth_interface/src/main/java/com/yiwei/service/RoleService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iHealth_service/src/main/java/com/yiwei/service/CheckGroupServiceImp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="53" column="25" lean-forward="false" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iHealth_service/src/main/java/com/yiwei/service/RoleServiceImp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="33" lean-forward="false" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iHealth_dao/src/main/java/com/yiwei/dao/RoleDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="18" column="69" lean-forward="false" selection-start-line="18" selection-start-column="69" selection-end-line="18" selection-end-column="69" />
         </state>
       </provider>
     </entry>
@@ -1888,22 +1733,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iHealth_web/src/main/webapp/pages/setmeal.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="301" column="36" lean-forward="false" selection-start-line="301" selection-start-column="36" selection-end-line="301" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iHealth_web/src/main/webapp/pages/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="221" column="53" lean-forward="false" selection-start-line="221" selection-start-column="39" selection-end-line="221" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/iHealth_web/src/main/java/com/yiwei/web/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="402">
@@ -1926,16 +1755,6 @@
           <folding>
             <element signature="e#1850#1851#0" expanded="true" />
             <element signature="e#1877#1878#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iHealth_pojo/src/main/java/com/yiwei/pojo/PageResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1964,25 +1783,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iHealth_pojo/src/main/java/com/yiwei/pojo/QueryPageBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding>
-            <element signature="e#587#588#0" expanded="false" />
-            <element signature="e#621#622#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iHealth_common/src/main/java/com/yiwei/constant/MessageConstant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="80" column="59" lean-forward="false" selection-start-line="80" selection-start-column="59" selection-end-line="80" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/iHealth_web/src/main/webapp/pages/user.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="415">
@@ -1996,79 +1796,136 @@
         <state relative-caret-position="330">
           <caret line="13" column="30" lean-forward="false" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="30" />
           <folding>
-            <element signature="e#346#352#0" expanded="true" />
+            <element signature="e#346#352#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iHealth_interface/src/main/java/com/yiwei/service/PermissionService.java">
+    <entry file="file://$PROJECT_DIR$/iHealth_web/src/main/webapp/pages/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="8" column="26" lean-forward="false" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        <state relative-caret-position="474">
+          <caret line="233" column="43" lean-forward="false" selection-start-line="233" selection-start-column="43" selection-end-line="233" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iHealth_service/src/main/java/com/yiwei/service/UserServiceImp.java">
+    <entry file="file://$PROJECT_DIR$/iHealth_web/src/main/webapp/pages/setmeal.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="104" column="24" lean-forward="false" selection-start-line="104" selection-start-column="24" selection-end-line="104" selection-end-column="24" />
+        <state relative-caret-position="540">
+          <caret line="301" column="36" lean-forward="false" selection-start-line="301" selection-start-column="36" selection-end-line="301" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iHealth_pojo/src/main/java/com/yiwei/pojo/PageResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iHealth_pojo/src/main/java/com/yiwei/pojo/QueryPageBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/iHealth_web/src/main/webapp/pages/permission.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="310" column="63" lean-forward="true" selection-start-line="310" selection-start-column="63" selection-end-line="310" selection-end-column="63" />
+        <state relative-caret-position="492">
+          <caret line="300" column="27" lean-forward="false" selection-start-line="300" selection-start-column="27" selection-end-line="300" selection-end-column="27" />
           <folding>
             <element signature="n#style#0;n#el-input#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1565510740142" expanded="false" signature="7569:7581" ph="..." />
-            <marker date="1565510740142" expanded="false" signature="14202:14214" ph="..." />
+            <marker date="1565514813841" expanded="false" signature="7570:7582" ph="..." />
+            <marker date="1565514813841" expanded="false" signature="14203:14215" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iHealth_web/src/main/java/com/yiwei/web/PermissionController.java">
+    <entry file="file://$PROJECT_DIR$/iHealth_pojo/src/main/java/com/yiwei/pojo/Role.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="81" column="59" lean-forward="true" selection-start-line="81" selection-start-column="59" selection-end-line="81" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="225">
+          <caret line="13" column="26" lean-forward="false" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iHealth_dao/src/main/java/com/yiwei/dao/PermissionDao.java">
+    <entry file="file://$PROJECT_DIR$/iHealth_interface/src/main/java/com/yiwei/service/PermissionService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="23" column="37" lean-forward="false" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+        <state relative-caret-position="192">
+          <caret line="12" column="28" lean-forward="false" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/iHealth_service/src/main/java/com/yiwei/service/PermissionServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="60" column="16" lean-forward="false" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="16" />
+        <state relative-caret-position="585">
+          <caret line="68" column="36" lean-forward="false" selection-start-line="68" selection-start-column="36" selection-end-line="68" selection-end-column="36" />
+          <folding>
+            <element signature="e#1797#1798#0" expanded="false" />
+            <element signature="e#1843#1844#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iHealth_dao/src/main/java/com/yiwei/dao/PermissionDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="564">
+          <caret line="26" column="31" lean-forward="false" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iHealth_dao/src/main/resources/com/yiwei/dao/PermissionDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="50" column="34" lean-forward="false" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="34" />
+          <folding>
+            <marker date="1565515633747" expanded="true" signature="364:390" ph="SELECT * FRO... t_permission" />
+            <marker date="1565515633747" expanded="true" signature="643:736" ph="INSERT into t_permission... " />
+            <marker date="1565515633747" expanded="true" signature="833:874" ph="DELETE FROM t_permission... " />
+            <marker date="1565515633747" expanded="true" signature="1011:1054" ph="SELECT * FRO... t_permission" />
+            <marker date="1565515633747" expanded="true" signature="1159:1178" ph="UPDATE t_permission... " />
+            <marker date="1565515633747" expanded="true" signature="1159:1523" ph="UPDATE t_permission... " />
+            <marker date="1565515633747" expanded="true" signature="1630:1656" ph="SELECT * FRO... t_permission" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iHealth_web/src/main/java/com/yiwei/web/PermissionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="96" column="24" lean-forward="true" selection-start-line="96" selection-start-column="24" selection-end-line="96" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1260#1261#0" expanded="true" />
-            <element signature="e#1305#1306#0" expanded="true" />
-            <element signature="e#1386#1387#0" expanded="true" />
-            <element signature="e#1440#1441#0" expanded="true" />
-            <element signature="e#1528#1529#0" expanded="true" />
-            <element signature="e#1587#1588#0" expanded="true" />
-            <element signature="e#1659#1660#0" expanded="true" />
-            <element signature="e#1705#1706#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iHealth_service/src/main/java/com/yiwei/service/CheckGroupServiceImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="53" column="25" lean-forward="false" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iHealth_service/src/main/java/com/yiwei/service/UserServiceImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="124" column="28" lean-forward="false" selection-start-line="124" selection-start-column="28" selection-end-line="124" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/iHealth_dao/src/main/resources/com/yiwei/dao/UserDao.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="915">
-          <caret line="53" column="18" lean-forward="false" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
+        <state relative-caret-position="240">
+          <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
           <folding>
             <marker date="1565486497535" expanded="true" signature="515:682" ph="insert into t_user... " />
             <marker date="1565486497535" expanded="true" signature="763:786" ph="SELECT LAST_... " />
@@ -2078,18 +1935,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iHealth_dao/src/main/resources/com/yiwei/dao/PermissionDao.xml">
+    <entry file="file://$PROJECT_DIR$/iHealth_web/src/main/webapp/pages/role.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="42" column="45" lean-forward="true" selection-start-line="42" selection-start-column="45" selection-end-line="42" selection-end-column="45" />
+        <state relative-caret-position="318">
+          <caret line="467" column="61" lean-forward="false" selection-start-line="467" selection-start-column="55" selection-end-line="467" selection-end-column="61" />
           <folding>
-            <marker date="1565511794257" expanded="true" signature="364:390" ph="SELECT * FRO... t_permission" />
-            <marker date="1565511794257" expanded="true" signature="643:736" ph="INSERT into t_permission... " />
-            <marker date="1565511794257" expanded="true" signature="833:874" ph="DELETE FROM t_permission... " />
-            <marker date="1565511794257" expanded="true" signature="1011:1054" ph="SELECT * FRO... t_permission" />
-            <marker date="1565511794257" expanded="true" signature="1159:1178" ph="UPDATE t_permission... " />
-            <marker date="1565511794257" expanded="true" signature="1159:1523" ph="UPDATE t_permission... " />
+            <marker date="1565522586107" expanded="false" signature="7565:7577" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iHealth_dao/src/main/resources/com/yiwei/dao/RoleDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="36" column="43" lean-forward="false" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
+          <folding>
+            <marker date="1565523253924" expanded="true" signature="354:374" ph="SELECT * FRO... t_role" />
+            <marker date="1565523253924" expanded="true" signature="627:714" ph="INSERT INTO t_role... " />
+            <marker date="1565523253924" expanded="true" signature="799:822" ph="SELECT LAST_... " />
+            <marker date="1565523253924" expanded="true" signature="946:1034" ph="INSERT INTO t_role_permission... " />
+            <marker date="1565523253924" expanded="true" signature="1153:1204" ph="DELETE FROM t_role_permission... " />
+            <marker date="1565523253924" expanded="true" signature="1298:1333" ph="DELETE FROM t_role... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iHealth_dao/src/main/java/com/yiwei/dao/RoleDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="32" column="36" lean-forward="false" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iHealth_interface/src/main/java/com/yiwei/service/RoleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iHealth_common/src/main/java/com/yiwei/constant/MessageConstant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="516">
+          <caret line="81" column="48" lean-forward="false" selection-start-line="81" selection-start-column="48" selection-end-line="81" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iHealth_service/src/main/java/com/yiwei/service/RoleServiceImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="59" column="24" lean-forward="true" selection-start-line="59" selection-start-column="24" selection-end-line="59" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iHealth_web/src/main/java/com/yiwei/web/RoleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="77" column="0" lean-forward="true" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

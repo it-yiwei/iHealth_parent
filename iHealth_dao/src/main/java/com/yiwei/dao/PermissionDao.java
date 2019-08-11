@@ -4,6 +4,7 @@ import com.github.pagehelper.Page;
 import com.yiwei.pojo.Permission;
 import org.apache.ibatis.annotations.Select;
 
+import java.util.List;
 import java.util.Set;
 
 public interface PermissionDao {
@@ -22,4 +23,6 @@ public interface PermissionDao {
     Permission findById(Integer permissionId);
 
     void edit(Permission permission);
+
+    List<Permission> findAll();
 }

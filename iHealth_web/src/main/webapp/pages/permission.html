@@ -48,7 +48,7 @@
                 <el-breadcrumb separator-class="el-icon-arrow-right" class="breadcrumb">
                     <el-breadcrumb-item :to="{ path: '/' }">首页</el-breadcrumb-item>
                     <el-breadcrumb-item>权限管理</el-breadcrumb-item>
-                    <el-breadcrumb-item>用户管理</el-breadcrumb-item>
+                    <el-breadcrumb-item>增删改权限</el-breadcrumb-item>
                 </el-breadcrumb>
             </div>
             <div class="app-container">
@@ -94,7 +94,7 @@
                     </div>
                     <!-- 新增标签弹层 -->
                     <div class="add-form">
-                        <el-dialog title="新增用户" :visible.sync="dialogFormVisible">
+                        <el-dialog title="新增权限" :visible.sync="dialogFormVisible">
                             <template>
                                 <el-tabs v-model="activeName" type="card" >
                                     <el-tab-pane label="基本信息" name="first">
@@ -297,8 +297,8 @@
                 dialogFormVisible4Edit:false,//控制编辑窗口显示/隐藏
 
                 rules: {//校验规则
-                    username: [{ required: true, message: '项目编码为必填项', trigger: 'blur' }],
-                    password: [{ required: true, message: '项目名称为必填项', trigger: 'blur' }]
+                    name: [{ required: true, message: '项目编码为必填项', trigger: 'blur' }],
+                    keyword: [{ required: true, message: '项目名称为必填项', trigger: 'blur' }]
                 }
             },
             created() {

@@ -79,5 +79,7 @@ public class MessageConstant {
     public static final String ADD_PERMISSION_FALL = "新增权限失败";
     public static final String DELETE_PERMISSION_SUCCESS = "删除权限成功";
     public static final String DELETE_PERMISSION_FALL = "删除权限失败";
+    public static final String DELETE_ROLE_SUCCESS = "删除角色成功";
+    public static final String DELETE_ROLE_FALL = "删除角色失败";
 
 }
