@@ -1,0 +1,68 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--namespace==接口的全限定名-->
+<mapper namespace="com.yiwei.dao.RoleDao">
+    <!--角色分页查询-->
+    <select id="selectByCondition" parameterType="String" resultType="com.yiwei.pojo.Role">
+        SELECT * FROM t_role
+        <if test="value != null and value.length > 0">
+            <where>
+                name LIKE '%${value}%'
+            </where>
+        </if>
+    </select>
+
+    <!--添加角色信息-->
+    <insert id="addRole" parameterType="com.yiwei.pojo.Role">
+        INSERT INTO t_role(name,keyword,description) VALUES (#{name},#{keyword},#{description})
+        <selectKey order="AFTER" keyProperty="id" resultType="Integer">
+            SELECT LAST_INSERT_ID()
+        </selectKey>
+    </insert>
+
+    <!--添加角色和权限的中间表-->
+    <insert id="roleAndPermission" parameterType="map">
+        INSERT INTO t_role_permission(role_id, permission_id) VALUES (#{roleId},#{permissionId})
+    </insert>
+
+    <!--删除角色和权限中间表约束-->
+    <delete id="deleterolePermissionByRoleId" parameterType="Integer">
+        DELETE FROM t_role_permission WHERE role_id = #{id}
+    </delete>
+
+    <!--删除角色表-->
+    <delete id="deleteById" parameterType="Integer">
+        DELETE FROM t_role WHERE id = #{id}
+    </delete>
+
+    <!--查询回显角色信息-->
+    <select id="findById" parameterType="Integer" resultType="com.yiwei.pojo.Role">
+        SELECT * FROM t_role WHERE id = #{id}
+    </select>
+
+    <!--查询角色关联权限-->
+    <select id="findPermissionIdsByRoleId" parameterType="Integer" resultType="Integer">
+        SELECT trp.permission_id FROM t_role_permission trp WHERE role_id = #{id}
+    </select>
+
+    <!--更新角色信息-->
+    <update id="edit" parameterType="com.yiwei.pojo.Role">
+        UPDATE t_role
+        <set>
+            <if test="name != null">
+                name = #{name},
+            </if>
+            <if test="keyword != null">
+                keyword = #{keyword},
+            </if>
+            <if test="description != null">
+                description = #{description},
+            </if>
+        </set>
+        WHERE id = #{id}
+    </update>
+
+
+</mapper>
