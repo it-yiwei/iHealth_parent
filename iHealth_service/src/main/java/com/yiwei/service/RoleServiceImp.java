@@ -61,6 +61,29 @@ public class RoleServiceImp implements RoleService {
 
     }
 
+    //弹出编辑框回显角色信息
+    @Override
+    public Role findById(Integer roleId) {
+        return roleDao.findById(roleId);
+    }
+
+    //查询角色关联权限
+    @Override
+    public List<Integer> findPermissionIdsByRoleId(Integer roleId) {
+        return roleDao.findPermissionIdsByRoleId(roleId);
+    }
+
+    //编辑角色
+    @Override
+    public void edit(Role role, List<Integer> permissionIds) {
+        //更新角色信息
+        roleDao.edit(role);
+        //删除角色权限关联
+        roleDao.deleterolePermissionByRoleId(role.getId());
+        //添加角色权限关联
+        roleAndPermission(role.getId(),permissionIds);
+    }
+
 
     //公共方法，循环添加角色和权限的中间表
     public void roleAndPermission(Integer roleId,List<Integer> permissionIds){

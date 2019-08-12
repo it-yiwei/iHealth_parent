@@ -19,4 +19,10 @@ public interface RoleService {
     void add(Role role, List<Integer> permissionIds);
     //删除角0色
     void deleteById(Integer roleId);
+    //根据id查询角色信息
+    Role findById(Integer roleId);
+    //查询角色关联权限
+    List<Integer> findPermissionIdsByRoleId(Integer roleId);
+    //编辑角色
+    void edit(Role role, List<Integer> permissionIds);
 }

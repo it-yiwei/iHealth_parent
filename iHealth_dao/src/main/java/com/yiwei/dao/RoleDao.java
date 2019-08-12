@@ -31,4 +31,10 @@ public interface RoleDao {
     void deleterolePermissionByRoleId(Integer roleId);
 
     void deleteById(Integer roleId);
+    //回显角色信息
+    Role findById(Integer roleId);
+    //查询角色关联权限
+    List<Integer> findPermissionIdsByRoleId(Integer roleId);
+    //更新角色信息
+    void edit(Role role);
 }
