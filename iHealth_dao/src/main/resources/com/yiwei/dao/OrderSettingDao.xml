@@ -8,5 +8,8 @@
     <select id="findByOrderDate" parameterType="date" resultType="OrderSetting">
         select * from t_ordersetting where orderDate = #{orderDate}
     </select>
-
+<!--每月清除历史预约数据-->
+    <delete id="iclearOrderSetting" parameterType="string">
+        DELETE FROM  t_ordersetting  WHERE  orderDate &lt;#{time}
+    </delete>
 </mapper>

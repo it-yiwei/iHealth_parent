@@ -31,6 +31,8 @@ public interface OrderSettingDao {
     //更新已预约人数
     @Update("update t_ordersetting set reservations = #{reservations} where orderDate = #{orderDate}")
     void updateReservations(OrderSetting orderSetting);
+     //每月最后一天清除历史预约数据
+    void clearOrderSetting(String time);
 
     //删除当前日期之前的预约数据
     @Delete("DELETE FROM t_ordersetting WHERE orderDate < #{now}")

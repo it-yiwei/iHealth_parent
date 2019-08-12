@@ -79,4 +79,9 @@ public class OrderSettingServiceImp implements  OrderSettingService{
             orderSettingDao.addOrderSetting(orderSetting);
         }
     }
+
+    @Override
+    public void clearOrderSetting(String time) {
+        orderSettingDao.clearOrderSetting(time);
+    }
 }

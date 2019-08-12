@@ -19,6 +19,23 @@ public interface RoleDao {
     @Select("select role_id from t_user_role where user_id = #{userId}")
     List<Integer> findRoleIdsByUserId(Integer userId);
 
+    //角色分页查询
+    Page<Role> selectByCondition(String queryString);
+    //添加角色信息
+    void addRole(Role role);
+    //添加角色和权限的中间表
+    void roleAndPermission(Map map);
+    //删除角色和权限中间表约束
+    void deleterolePermissionByRoleId(Integer roleId);
+
+    void deleteById(Integer roleId);
+    //回显角色信息
+    Role findById(Integer roleId);
+    //查询角色关联权限
+    List<Integer> findPermissionIdsByRoleId(Integer roleId);
+    //更新角色信息
+    void edit(Role role);
+
     @Select("select menu_id from t_role_menu where role_id=#{role_id}")
     List<Integer> findMenuIdsByRoleId(Integer roleId);
 }

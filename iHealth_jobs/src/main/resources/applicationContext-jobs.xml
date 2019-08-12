@@ -69,8 +69,7 @@
         <!--注入多个触发器-->
         <property name="triggers">
             <list>
-                <ref bean="myTrigger1"/>
-                <ref bean="myTrigger2"/>
+                <ref bean="myTrigger"/>
             </list>
         </property>
     </bean>
