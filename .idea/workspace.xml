@@ -7,74 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="147fb4de-a531-41d3-8d53-8213352d5be8" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/iHealth_dao/src/main/java/com/yiwei/dao/MenuDao.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/iHealth_dao/src/main/resources/com/yiwei/dao/MenuDao.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/iHealth_interface/src/main/java/com/yiwei/service/MenuService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/iHealth_jobs/src/main/java/com/yiwei/jobs/ClearOrder.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/iHealth_mobile_web/src/test/java/com/yiwei/test.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/iHealth_service/src/main/java/com/yiwei/service/MenuServiceImp.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/iHealth_web/src/main/java/com/yiwei/web/MenuController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/iHealth_web/src/main/webapp/pages/report_member2.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/iHealth_web/src/main/webapp/pages/report_sex_member.html" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/iHealth_jobs_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/iHealth_jobs_war_exploded.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/iHealth_common/src/main/java/com/yiwei/constant/MessageConstant.java" afterPath="$PROJECT_DIR$/iHealth_common/src/main/java/com/yiwei/constant/MessageConstant.java" />
-      <change beforePath="$PROJECT_DIR$/iHealth_common/src/main/java/com/yiwei/constant/RedisConstant.java" afterPath="$PROJECT_DIR$/iHealth_common/src/main/java/com/yiwei/constant/RedisConstant.java" />
-      <change beforePath="$PROJECT_DIR$/iHealth_common/target/classes/com/yiwei/constant/MessageConstant.class" afterPath="$PROJECT_DIR$/iHealth_common/target/classes/com/yiwei/constant/MessageConstant.class" />
-      <change beforePath="$PROJECT_DIR$/iHealth_common/target/classes/com/yiwei/constant/RedisConstant.class" afterPath="$PROJECT_DIR$/iHealth_common/target/classes/com/yiwei/constant/RedisConstant.class" />
-      <change beforePath="$PROJECT_DIR$/iHealth_dao/src/main/java/com/yiwei/dao/MemberDao.java" afterPath="$PROJECT_DIR$/iHealth_dao/src/main/java/com/yiwei/dao/MemberDao.java" />
-      <change beforePath="$PROJECT_DIR$/iHealth_dao/src/main/java/com/yiwei/dao/OrderSettingDao.java" afterPath="$PROJECT_DIR$/iHealth_dao/src/main/java/com/yiwei/dao/OrderSettingDao.java" />
-      <change beforePath="$PROJECT_DIR$/iHealth_dao/src/main/java/com/yiwei/dao/RoleDao.java" afterPath="$PROJECT_DIR$/iHealth_dao/src/main/java/com/yiwei/dao/RoleDao.java" />
-      <change beforePath="$PROJECT_DIR$/iHealth_dao/src/main/java/com/yiwei/dao/UserDao.java" afterPath="$PROJECT_DIR$/iHealth_dao/src/main/java/com/yiwei/dao/UserDao.java" />
-      <change beforePath="$PROJECT_DIR$/iHealth_dao/target/classes/com/yiwei/dao/MemberDao.class" afterPath="$PROJECT_DIR$/iHealth_dao/target/classes/com/yiwei/dao/MemberDao.class" />
-      <change beforePath="$PROJECT_DIR$/iHealth_dao/target/classes/com/yiwei/dao/OrderSettingDao.class" afterPath="$PROJECT_DIR$/iHealth_dao/target/classes/com/yiwei/dao/OrderSettingDao.class" />
-      <change beforePath="$PROJECT_DIR$/iHealth_dao/target/classes/com/yiwei/dao/RoleDao.class" afterPath="$PROJECT_DIR$/iHealth_dao/target/classes/com/yiwei/dao/RoleDao.class" />
-      <change beforePath="$PROJECT_DIR$/iHealth_dao/target/classes/com/yiwei/dao/UserDao.class" afterPath="$PROJECT_DIR$/iHealth_dao/target/classes/com/yiwei/dao/UserDao.class" />
-      <change beforePath="$PROJECT_DIR$/iHealth_interface/src/main/java/com/yiwei/service/MemberService.java" afterPath="$PROJECT_DIR$/iHealth_interface/src/main/java/com/yiwei/service/MemberService.java" />
-      <change beforePath="$PROJECT_DIR$/iHealth_interface/src/main/java/com/yiwei/service/UserService.java" afterPath="$PROJECT_DIR$/iHealth_interface/src/main/java/com/yiwei/service/UserService.java" />
-      <change beforePath="$PROJECT_DIR$/iHealth_interface/target/classes/com/yiwei/service/MemberService.class" afterPath="$PROJECT_DIR$/iHealth_interface/target/classes/com/yiwei/service/MemberService.class" />
-      <change beforePath="$PROJECT_DIR$/iHealth_interface/target/classes/com/yiwei/service/UserService.class" afterPath="$PROJECT_DIR$/iHealth_interface/target/classes/com/yiwei/service/UserService.class" />
-      <change beforePath="$PROJECT_DIR$/iHealth_jobs/iHealth_jobs.iml" afterPath="$PROJECT_DIR$/iHealth_jobs/iHealth_jobs.iml" />
-      <change beforePath="$PROJECT_DIR$/iHealth_jobs/pom.xml" afterPath="$PROJECT_DIR$/iHealth_jobs/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/iHealth_jobs/src/main/java/com/yiwei/jobs/ClearImgJob.java" afterPath="$PROJECT_DIR$/iHealth_jobs/src/main/java/com/yiwei/jobs/ClearImgJob.java" />
-      <change beforePath="$PROJECT_DIR$/iHealth_jobs/src/main/resources/applicationContext-jobs.xml" afterPath="$PROJECT_DIR$/iHealth_jobs/src/main/resources/applicationContext-jobs.xml" />
-      <change beforePath="$PROJECT_DIR$/iHealth_jobs/target/classes/applicationContext-jobs.xml" afterPath="$PROJECT_DIR$/iHealth_jobs/target/classes/applicationContext-jobs.xml" />
-      <change beforePath="$PROJECT_DIR$/iHealth_jobs/target/classes/com/yiwei/jobs/ClearImgJob.class" afterPath="$PROJECT_DIR$/iHealth_jobs/target/classes/com/yiwei/jobs/ClearImgJob.class" />
-      <change beforePath="$PROJECT_DIR$/iHealth_jobs/target/iHealth_jobs-1.0-SNAPSHOT/WEB-INF/classes/applicationContext-jobs.xml" afterPath="$PROJECT_DIR$/iHealth_jobs/target/iHealth_jobs-1.0-SNAPSHOT/WEB-INF/classes/applicationContext-jobs.xml" />
-      <change beforePath="$PROJECT_DIR$/iHealth_jobs/target/iHealth_jobs-1.0-SNAPSHOT/WEB-INF/classes/com/yiwei/jobs/ClearImgJob.class" afterPath="$PROJECT_DIR$/iHealth_jobs/target/iHealth_jobs-1.0-SNAPSHOT/WEB-INF/classes/com/yiwei/jobs/ClearImgJob.class" />
-      <change beforePath="$PROJECT_DIR$/iHealth_jobs/target/iHealth_jobs-1.0-SNAPSHOT/WEB-INF/lib/iHealth_common-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/iHealth_jobs/target/iHealth_jobs-1.0-SNAPSHOT/WEB-INF/lib/iHealth_common-1.0-SNAPSHOT.jar" />
-      <change beforePath="$PROJECT_DIR$/iHealth_jobs/target/iHealth_jobs-1.0-SNAPSHOT/WEB-INF/lib/iHealth_interface-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/iHealth_jobs/target/iHealth_jobs-1.0-SNAPSHOT/WEB-INF/lib/iHealth_interface-1.0-SNAPSHOT.jar" />
-      <change beforePath="$PROJECT_DIR$/iHealth_jobs/target/iHealth_jobs-1.0-SNAPSHOT/WEB-INF/lib/iHealth_pojo-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/iHealth_jobs/target/iHealth_jobs-1.0-SNAPSHOT/WEB-INF/lib/iHealth_pojo-1.0-SNAPSHOT.jar" />
-      <change beforePath="$PROJECT_DIR$/iHealth_mobile_web/src/main/java/com/yiwei/web/MobileSetmealController.java" afterPath="$PROJECT_DIR$/iHealth_mobile_web/src/main/java/com/yiwei/web/MobileSetmealController.java" />
-      <change beforePath="$PROJECT_DIR$/iHealth_mobile_web/target/classes/com/yiwei/web/MobileSetmealController.class" afterPath="$PROJECT_DIR$/iHealth_mobile_web/target/classes/com/yiwei/web/MobileSetmealController.class" />
-      <change beforePath="$PROJECT_DIR$/iHealth_mobile_web/target/iHealth_mobile_web-1.0-SNAPSHOT/WEB-INF/classes/com/yiwei/web/MobileSetmealController.class" afterPath="$PROJECT_DIR$/iHealth_mobile_web/target/iHealth_mobile_web-1.0-SNAPSHOT/WEB-INF/classes/com/yiwei/web/MobileSetmealController.class" />
-      <change beforePath="$PROJECT_DIR$/iHealth_mobile_web/target/iHealth_mobile_web-1.0-SNAPSHOT/WEB-INF/lib/iHealth_common-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/iHealth_mobile_web/target/iHealth_mobile_web-1.0-SNAPSHOT/WEB-INF/lib/iHealth_common-1.0-SNAPSHOT.jar" />
-      <change beforePath="$PROJECT_DIR$/iHealth_mobile_web/target/iHealth_mobile_web-1.0-SNAPSHOT/WEB-INF/lib/iHealth_interface-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/iHealth_mobile_web/target/iHealth_mobile_web-1.0-SNAPSHOT/WEB-INF/lib/iHealth_interface-1.0-SNAPSHOT.jar" />
-      <change beforePath="$PROJECT_DIR$/iHealth_mobile_web/target/iHealth_mobile_web-1.0-SNAPSHOT/WEB-INF/lib/iHealth_pojo-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/iHealth_mobile_web/target/iHealth_mobile_web-1.0-SNAPSHOT/WEB-INF/lib/iHealth_pojo-1.0-SNAPSHOT.jar" />
-      <change beforePath="$PROJECT_DIR$/iHealth_service/src/main/java/com/yiwei/service/MemberServiceImp.java" afterPath="$PROJECT_DIR$/iHealth_service/src/main/java/com/yiwei/service/MemberServiceImp.java" />
-      <change beforePath="$PROJECT_DIR$/iHealth_service/src/main/java/com/yiwei/service/UserServiceImp.java" afterPath="$PROJECT_DIR$/iHealth_service/src/main/java/com/yiwei/service/UserServiceImp.java" />
-      <change beforePath="$PROJECT_DIR$/iHealth_service/target/classes/com/yiwei/service/MemberServiceImp.class" afterPath="$PROJECT_DIR$/iHealth_service/target/classes/com/yiwei/service/MemberServiceImp.class" />
-      <change beforePath="$PROJECT_DIR$/iHealth_service/target/classes/com/yiwei/service/UserServiceImp.class" afterPath="$PROJECT_DIR$/iHealth_service/target/classes/com/yiwei/service/UserServiceImp.class" />
-      <change beforePath="$PROJECT_DIR$/iHealth_service/target/iHealth_service-1.0-SNAPSHOT/WEB-INF/classes/com/yiwei/service/MemberServiceImp.class" afterPath="$PROJECT_DIR$/iHealth_service/target/iHealth_service-1.0-SNAPSHOT/WEB-INF/classes/com/yiwei/service/MemberServiceImp.class" />
-      <change beforePath="$PROJECT_DIR$/iHealth_service/target/iHealth_service-1.0-SNAPSHOT/WEB-INF/classes/com/yiwei/service/UserServiceImp.class" afterPath="$PROJECT_DIR$/iHealth_service/target/iHealth_service-1.0-SNAPSHOT/WEB-INF/classes/com/yiwei/service/UserServiceImp.class" />
-      <change beforePath="$PROJECT_DIR$/iHealth_service/target/iHealth_service-1.0-SNAPSHOT/WEB-INF/lib/iHealth_common-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/iHealth_service/target/iHealth_service-1.0-SNAPSHOT/WEB-INF/lib/iHealth_common-1.0-SNAPSHOT.jar" />
-      <change beforePath="$PROJECT_DIR$/iHealth_service/target/iHealth_service-1.0-SNAPSHOT/WEB-INF/lib/iHealth_dao-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/iHealth_service/target/iHealth_service-1.0-SNAPSHOT/WEB-INF/lib/iHealth_dao-1.0-SNAPSHOT.jar" />
-      <change beforePath="$PROJECT_DIR$/iHealth_service/target/iHealth_service-1.0-SNAPSHOT/WEB-INF/lib/iHealth_interface-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/iHealth_service/target/iHealth_service-1.0-SNAPSHOT/WEB-INF/lib/iHealth_interface-1.0-SNAPSHOT.jar" />
-      <change beforePath="$PROJECT_DIR$/iHealth_web/src/main/java/com/yiwei/web/ReportController.java" afterPath="$PROJECT_DIR$/iHealth_web/src/main/java/com/yiwei/web/ReportController.java" />
-      <change beforePath="$PROJECT_DIR$/iHealth_web/src/main/java/com/yiwei/web/SetmealController.java" afterPath="$PROJECT_DIR$/iHealth_web/src/main/java/com/yiwei/web/SetmealController.java" />
-      <change beforePath="$PROJECT_DIR$/iHealth_web/src/main/java/com/yiwei/web/checkGroupController.java" afterPath="$PROJECT_DIR$/iHealth_web/src/main/java/com/yiwei/web/checkGroupController.java" />
-      <change beforePath="$PROJECT_DIR$/iHealth_web/src/main/webapp/pages/main.html" afterPath="$PROJECT_DIR$/iHealth_web/src/main/webapp/pages/main.html" />
-      <change beforePath="$PROJECT_DIR$/iHealth_web/src/main/webapp/pages/report_member.html" afterPath="$PROJECT_DIR$/iHealth_web/src/main/webapp/pages/report_member.html" />
-      <change beforePath="$PROJECT_DIR$/iHealth_web/target/classes/com/yiwei/web/ReportController.class" afterPath="$PROJECT_DIR$/iHealth_web/target/classes/com/yiwei/web/ReportController.class" />
-      <change beforePath="$PROJECT_DIR$/iHealth_web/target/classes/com/yiwei/web/SetmealController.class" afterPath="$PROJECT_DIR$/iHealth_web/target/classes/com/yiwei/web/SetmealController.class" />
-      <change beforePath="$PROJECT_DIR$/iHealth_web/target/classes/com/yiwei/web/checkGroupController.class" afterPath="$PROJECT_DIR$/iHealth_web/target/classes/com/yiwei/web/checkGroupController.class" />
-      <change beforePath="$PROJECT_DIR$/iHealth_web/target/iHealth_web-1.0-SNAPSHOT/WEB-INF/classes/com/yiwei/web/ReportController.class" afterPath="$PROJECT_DIR$/iHealth_web/target/iHealth_web-1.0-SNAPSHOT/WEB-INF/classes/com/yiwei/web/ReportController.class" />
-      <change beforePath="$PROJECT_DIR$/iHealth_web/target/iHealth_web-1.0-SNAPSHOT/WEB-INF/classes/com/yiwei/web/SetmealController.class" afterPath="$PROJECT_DIR$/iHealth_web/target/iHealth_web-1.0-SNAPSHOT/WEB-INF/classes/com/yiwei/web/SetmealController.class" />
-      <change beforePath="$PROJECT_DIR$/iHealth_web/target/iHealth_web-1.0-SNAPSHOT/WEB-INF/classes/com/yiwei/web/checkGroupController.class" afterPath="$PROJECT_DIR$/iHealth_web/target/iHealth_web-1.0-SNAPSHOT/WEB-INF/classes/com/yiwei/web/checkGroupController.class" />
-      <change beforePath="$PROJECT_DIR$/iHealth_web/target/iHealth_web-1.0-SNAPSHOT/WEB-INF/lib/iHealth_common-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/iHealth_web/target/iHealth_web-1.0-SNAPSHOT/WEB-INF/lib/iHealth_common-1.0-SNAPSHOT.jar" />
-      <change beforePath="$PROJECT_DIR$/iHealth_web/target/iHealth_web-1.0-SNAPSHOT/WEB-INF/lib/iHealth_interface-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/iHealth_web/target/iHealth_web-1.0-SNAPSHOT/WEB-INF/lib/iHealth_interface-1.0-SNAPSHOT.jar" />
-      <change beforePath="$PROJECT_DIR$/iHealth_web/target/iHealth_web-1.0-SNAPSHOT/pages/main.html" afterPath="$PROJECT_DIR$/iHealth_web/target/iHealth_web-1.0-SNAPSHOT/pages/main.html" />
-      <change beforePath="$PROJECT_DIR$/iHealth_web/target/iHealth_web-1.0-SNAPSHOT/pages/report_member.html" afterPath="$PROJECT_DIR$/iHealth_web/target/iHealth_web-1.0-SNAPSHOT/pages/report_member.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -104,8 +37,8 @@
       <file leaf-file-name="report_member2.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/iHealth_web/src/main/webapp/pages/report_member2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2874">
-              <caret line="132" column="9" lean-forward="true" selection-start-line="132" selection-start-column="9" selection-end-line="132" selection-end-column="9" />
+            <state relative-caret-position="187">
+              <caret line="103" column="20" lean-forward="true" selection-start-line="103" selection-start-column="20" selection-end-line="103" selection-end-column="20" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -126,7 +59,7 @@
       <file leaf-file-name="report_member.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/iHealth_web/src/main/webapp/pages/report_member.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
+            <state relative-caret-position="572">
               <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -355,6 +288,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -366,10 +303,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1073,6 +1006,7 @@
       <workItem from="1565454666119" duration="1003000" />
       <workItem from="1565486612305" duration="32840000" />
       <workItem from="1565577310259" duration="6280000" />
+      <workItem from="1565595667755" duration="79000" />
     </task>
     <task id="LOCAL-00001" summary="黑马健康">
       <created>1565453829841</created>
@@ -1117,7 +1051,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="267437000" />
+    <option name="totallyTimeSpent" value="267516000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1132,34 +1066,34 @@
     <frame x="-11" y="-11" width="1942" height="1102" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.72333336" sideWeight="0.50431967" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48704103" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24946004" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7962138" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280098" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.72333336" sideWeight="0.50431967" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48704103" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4164619" sideWeight="0.49568033" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32923833" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26349893" sideWeight="0.47104678" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26781857" sideWeight="0.47104678" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20302376" sideWeight="0.54" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24946004" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7962138" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2640389" sideWeight="0.52895325" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280098" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1260,7 +1194,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="21" column="55" lean-forward="false" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1337,7 +1270,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="19" column="29" lean-forward="false" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1395,7 +1327,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-792">
           <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1445,7 +1376,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="287">
           <caret line="35" column="57" lean-forward="false" selection-start-line="35" selection-start-column="57" selection-end-line="35" selection-end-column="57" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1476,7 +1406,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-396">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1506,7 +1435,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="17" column="42" lean-forward="false" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1514,7 +1442,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1522,7 +1449,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1232">
           <caret line="56" column="70" lean-forward="false" selection-start-line="56" selection-start-column="70" selection-end-line="56" selection-end-column="70" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1530,7 +1456,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2266">
           <caret line="117" column="45" lean-forward="false" selection-start-line="117" selection-start-column="45" selection-end-line="117" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1538,7 +1463,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" column="43" lean-forward="false" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1546,10 +1470,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
           <caret line="40" column="36" lean-forward="false" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
-          <folding>
-            <element signature="e#1061#1062#0" expanded="false" />
-            <element signature="e#1112#1113#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1557,7 +1477,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
           <caret line="113" column="54" lean-forward="false" selection-start-line="113" selection-start-column="54" selection-end-line="113" selection-end-column="54" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1565,7 +1484,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="17" column="28" lean-forward="false" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1573,7 +1491,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1581,7 +1498,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="365">
           <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1589,7 +1505,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="497">
           <caret line="41" column="36" lean-forward="false" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1605,13 +1520,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
           <caret line="49" column="54" lean-forward="false" selection-start-line="49" selection-start-column="54" selection-end-line="49" selection-end-column="54" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/iHealth_web/src/main/webapp/pages/report_member.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
+        <state relative-caret-position="572">
           <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1629,8 +1543,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/iHealth_web/src/main/webapp/pages/report_member2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2874">
-          <caret line="132" column="9" lean-forward="true" selection-start-line="132" selection-start-column="9" selection-end-line="132" selection-end-column="9" />
+        <state relative-caret-position="187">
+          <caret line="103" column="20" lean-forward="true" selection-start-line="103" selection-start-column="20" selection-end-line="103" selection-end-column="20" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
