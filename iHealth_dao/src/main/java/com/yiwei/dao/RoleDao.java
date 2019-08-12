@@ -1,9 +1,11 @@
 package com.yiwei.dao;
 
+import com.github.pagehelper.Page;
 import com.yiwei.pojo.Role;
 import org.apache.ibatis.annotations.Select;
 
 import java.util.List;
+import java.util.Map;
 import java.util.Set;
 
 public interface RoleDao {
