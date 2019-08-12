@@ -7,15 +7,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="147fb4de-a531-41d3-8d53-8213352d5be8" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/d0349cd1-239f-401d-83e3-a83a4ab0328a.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/iHealth_dao/src/main/resources/com/yiwei/dao/PermissionDao.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/iHealth_dao/src/main/resources/com/yiwei/dao/RoleDao.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/iHealth_interface/src/main/java/com/yiwei/service/PermissionService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/iHealth_service/src/main/java/com/yiwei/service/PermissionServiceImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/iHealth_web/src/main/java/com/yiwei/web/PermissionController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/iHealth_web/src/main/webapp/pages/role.html" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -1383,7 +1374,7 @@
       <workItem from="1565486534265" duration="9339000" />
       <workItem from="1565499328593" duration="19027000" />
       <workItem from="1565574355060" duration="6662000" />
-      <workItem from="1565581311708" duration="83000" />
+      <workItem from="1565581311708" duration="190000" />
     </task>
     <task id="LOCAL-00001" summary="黑马健康">
       <created>1565453829841</created>
@@ -1420,7 +1411,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565581224475</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="黑马健康(功能完成3)">
+      <created>1565581410078</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1565581410078</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1456,7 +1454,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="263428000" />
+    <option name="totallyTimeSpent" value="263535000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1575,7 +1573,8 @@
     <MESSAGE value="黑马健康(完成权限数据动态维护)" />
     <MESSAGE value="黑马健康(下班了)" />
     <MESSAGE value="黑马健康(功能完成)" />
-    <option name="LAST_COMMIT_MESSAGE" value="黑马健康(功能完成)" />
+    <MESSAGE value="黑马健康(功能完成3)" />
+    <option name="LAST_COMMIT_MESSAGE" value="黑马健康(功能完成3)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
