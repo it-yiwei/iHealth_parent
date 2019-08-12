@@ -102,6 +102,29 @@ public class ReportController {
 
     }
 
+    //获取男女会员比例
+    @RequestMapping("/getSexMemberReport")
+    public Result getSexMemberReport(){
+        try {
+            //获取男女会员数量
+            List<Map> resultList = memberService.countMemberBySex();
+
+            ArrayList<String> sexList = new ArrayList<>();
+            for (Map map : resultList) {
+                String sex = (String) map.get("name");
+                sexList.add(sex);
+            }
+            HashMap<String, List> resultMap = new HashMap<>();
+            resultMap.put("sexList",sexList);
+            resultMap.put("sexMemberCount",resultList);
+
+            return new Result(true,MessageConstant.GET_MEMBER_SEX_LIST_SUCCESS,resultMap);
+        } catch (Exception e) {
+            e.printStackTrace();
+            return new Result(true,MessageConstant.GET_MEMBER_SEX_LIST_FALL);
+        }
+    }
+
     //获取运营数据
     @RequestMapping("/getBusinessReportData")
     public Result getBusinessReportData(){
@@ -203,4 +226,5 @@ public class ReportController {
 
         return null;
     }
+
 }

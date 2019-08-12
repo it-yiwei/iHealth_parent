@@ -2,8 +2,10 @@ package com.yiwei.dao;
 
 import com.github.pagehelper.Page;
 import com.yiwei.pojo.Member;
+import org.apache.ibatis.annotations.Select;
 
 import java.util.List;
+import java.util.Map;
 
 public interface MemberDao {
     public List<Member> findAll();
@@ -17,5 +19,8 @@ public interface MemberDao {
     public Integer findMemberCountByDate(String date);
     public Integer findMemberCountAfterDate(String date);
     public Integer findMemberTotalCount();
+
+    @Select("SELECT count(*) value,sex name FROM t_member GROUP BY sex")
+    List<Map> countMemberBySex();
 
 }

@@ -8,6 +8,7 @@ import org.apache.ibatis.annotations.Select;
 import org.apache.ibatis.annotations.Update;
 
 import java.util.HashMap;
+import java.util.List;
 
 public interface UserDao {
 
@@ -38,4 +39,12 @@ public interface UserDao {
     //根据id删除用户
     @Delete("delete from t_user where id = #{userId}")
     void deleteById(Integer userId);
+
+    //根据用户名查找id
+    @Select("select id from t_user where username=#{username}")
+    Integer findUserIdByUsername(String username);
+
+    //获取关联roleId
+    @Select("select role_id from t_user_role where user_id = #{userId}")
+    List<Integer> findRoleIdByUserId(Integer userId);
 }

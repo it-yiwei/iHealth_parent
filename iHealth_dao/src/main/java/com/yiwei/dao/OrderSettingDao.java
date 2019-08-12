@@ -1,10 +1,7 @@
 package com.yiwei.dao;
 
 import com.yiwei.pojo.OrderSetting;
-import org.apache.ibatis.annotations.Insert;
-import org.apache.ibatis.annotations.Param;
-import org.apache.ibatis.annotations.Select;
-import org.apache.ibatis.annotations.Update;
+import org.apache.ibatis.annotations.*;
 
 import java.util.Date;
 import java.util.HashMap;
@@ -34,6 +31,10 @@ public interface OrderSettingDao {
     //更新已预约人数
     @Update("update t_ordersetting set reservations = #{reservations} where orderDate = #{orderDate}")
     void updateReservations(OrderSetting orderSetting);
+
+    //删除当前日期之前的预约数据
+    @Delete("DELETE FROM t_ordersetting WHERE orderDate < #{now}")
+    void clearOldOrderSetting(String now);
 
     //更改预约设置
     /*@Update("update t_ordersetting set number = #{number} where orderDate = #{orderDate}")

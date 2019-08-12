@@ -2,9 +2,13 @@ package com.yiwei.web;
 
 import com.alibaba.dubbo.config.annotation.Reference;
 import com.yiwei.constant.MessageConstant;
+import com.yiwei.constant.RedisConstant;
 import com.yiwei.pojo.*;
 import com.yiwei.service.CheckGroupService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+import redis.clients.jedis.Jedis;
+import redis.clients.jedis.JedisPool;
 
 import java.util.List;
 
@@ -15,6 +19,9 @@ public class checkGroupController {
     //注入service
     @Reference
     private CheckGroupService checkGroupService;
+
+    @Autowired
+    private JedisPool jedisPool;
 
     //增加检查组
     @RequestMapping("/add")
@@ -87,6 +94,13 @@ public class checkGroupController {
 
         try {
             checkGroupService.edit(checkGroup,checkitemIds);
+
+            //新增成功后需要更新redis缓存
+            Jedis jedis = jedisPool.getResource();
+            jedis.del(RedisConstant.ALLSETMEALS);
+
+            //需要查出哪些套餐和这检查组有关，再删除redis里面套餐详情；
+            //jedis.hdel(RedisConstant.SETMEALDETAIL,RedisConstant.SETMEALDETAIL+"_"+id)
 
             Result result = new Result(true, MessageConstant.EDIT_CHECKGROUP_SUCCESS);
             return result;

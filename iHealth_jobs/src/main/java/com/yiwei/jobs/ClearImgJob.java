@@ -26,5 +26,6 @@ public class ClearImgJob {
             //删除redis上垃圾路径
             jedis.srem(RedisConstant.SETMEAL_PIC_RESOURCES,url);
         }
+        System.out.println("定时器二");
     }
 }

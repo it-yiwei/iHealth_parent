@@ -14,7 +14,12 @@
       <groupId>com.yiwei</groupId>  
       <artifactId>iHealth_interface</artifactId>  
       <version>1.0-SNAPSHOT</version> 
-    </dependency>  
+    </dependency>
+    <dependency>
+      <groupId>com.yiwei</groupId>
+      <artifactId>iHealth_dao</artifactId>
+      <version>1.0-SNAPSHOT</version>
+    </dependency>
     <!--定时器-->  
     <dependency> 
       <groupId>org.quartz-scheduler</groupId>  
@@ -23,6 +28,6 @@
     <dependency> 
       <groupId>org.quartz-scheduler</groupId>  
       <artifactId>quartz-jobs</artifactId> 
-    </dependency> 
+    </dependency>
   </dependencies> 
 </project>

@@ -121,6 +121,11 @@ public class UserServiceImp implements UserService {
         userDao.deleteById(userId);
     }
 
+    @Override
+    public Integer findUserIdByUsername(String username) {
+        return userDao.findUserIdByUsername(username);
+    }
+
     //循环插入关联表
     public void setUserIdAndRoleId(Integer userId,List<Integer> roleIds){
         //遍历checkItemIds，获取的每一个检查项Id和检查组Id一起存入map，把map当作入参存入中间表

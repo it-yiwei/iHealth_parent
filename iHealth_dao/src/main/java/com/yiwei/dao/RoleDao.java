@@ -18,4 +18,7 @@ public interface RoleDao {
 
     @Select("select role_id from t_user_role where user_id = #{userId}")
     List<Integer> findRoleIdsByUserId(Integer userId);
+
+    @Select("select menu_id from t_role_menu where role_id=#{role_id}")
+    List<Integer> findMenuIdsByRoleId(Integer roleId);
 }

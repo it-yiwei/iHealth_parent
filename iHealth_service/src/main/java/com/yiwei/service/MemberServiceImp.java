@@ -6,6 +6,8 @@ import com.yiwei.pojo.Member;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.Date;
+import java.util.List;
+import java.util.Map;
 
 @Service(interfaceClass = MemberService.class)
 public class MemberServiceImp implements MemberService {
@@ -32,5 +34,10 @@ public class MemberServiceImp implements MemberService {
     public Integer countMember(String date) {
         Integer members = memberDao.findMemberCountBeforeDate(date);
         return members;
+    }
+
+    @Override
+    public List<Map> countMemberBySex() {
+        return memberDao.countMemberBySex();
     }
 }

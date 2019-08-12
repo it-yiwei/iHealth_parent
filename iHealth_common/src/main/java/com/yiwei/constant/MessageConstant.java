@@ -70,7 +70,11 @@ public class MessageConstant {
     public static final String GET_SETMEAL_LIST_SUCCESS = "查询套餐列表数据成功";
     public static final String GET_SETMEAL_LIST_FAIL = "查询套餐列表数据失败";
     public static final String GET_USER_LIST_SUCCESS = "查询用户列表数据成功";
+    public static final String GET_MEMBER_SEX_LIST_SUCCESS = "查询男女会员比例成功";
+    public static final String GET_MEMBER_SEX_LIST_FALL = "查询男女会员比例失败";
     public static final String GET_USER_LIST_FALL = "查询用户列表数据失败";
+    public static final String GET_MENU_LIST_FALL = "查询菜单列表数据失败";
+    public static final String GET_MENU_LIST_SUCCESS = "查询菜单列表数据成功";
     public static final String GET_ROLE_LIST_FALL = "查询角色列表数据失败";
     public static final String GET_ROLE_LIST_SUCCESS = "查询角色列表数据成功";
     public static final String DELETE_USER_SUCCESS = "删除用户成功";

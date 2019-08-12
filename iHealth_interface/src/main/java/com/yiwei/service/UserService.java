@@ -1,5 +1,6 @@
 package com.yiwei.service;
 
+import com.yiwei.pojo.Menu;
 import com.yiwei.pojo.PageResult;
 import com.yiwei.pojo.QueryPageBean;
 import com.yiwei.pojo.User;
@@ -25,4 +26,8 @@ public interface UserService {
 
     //删除用户信息
     void deleteById(Integer userId);
+
+    //根据用户名密码获取用户Id
+    Integer findUserIdByUsername(String username);
+
 }

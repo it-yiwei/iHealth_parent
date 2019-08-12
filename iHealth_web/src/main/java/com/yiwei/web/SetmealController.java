@@ -64,7 +64,11 @@ public class SetmealController {
 
             //新增成功后把图片id存入redis
             Jedis jedis = jedisPool.getResource();
-            jedis.sadd(RedisConstant.SETMEAL_PIC_DB_RESOURCES,setmeal.getImg());
+            String fileName = setmeal.getImg();
+            jedis.sadd(RedisConstant.SETMEAL_PIC_DB_RESOURCES,fileName);
+
+            //新增成功后需要更新redis缓存
+            jedis.del(RedisConstant.ALLSETMEALS);
 
             //新增成功
             return new Result(true,MessageConstant.ADD_SETMEAL_SUCCESS);
@@ -99,6 +103,10 @@ public class SetmealController {
 
         try {
             setmealService.deleteById(setmealId);
+
+            //新增成功后需要更新redis缓存
+            Jedis jedis = jedisPool.getResource();
+            jedis.del(RedisConstant.ALLSETMEALS);
 
             Result result = new Result(true, MessageConstant.DELETE_SETMEAL_SUCCESS);
             return result;
