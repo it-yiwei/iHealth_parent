@@ -9,6 +9,27 @@
     <list default="true" id="147fb4de-a531-41d3-8d53-8213352d5be8" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
+    <list default="true" id="147fb4de-a531-41d3-8d53-8213352d5be8" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Spring_Security/Spring_Security.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/iHealth_common/iHealth_common.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/iHealth_dao/iHealth_dao.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/iHealth_dao/src/main/java/com/yiwei/dao/OrderSettingDao.java" afterPath="$PROJECT_DIR$/iHealth_dao/src/main/java/com/yiwei/dao/OrderSettingDao.java" />
+      <change beforePath="$PROJECT_DIR$/iHealth_dao/src/main/resources/com/yiwei/dao/OrderSettingDao.xml" afterPath="$PROJECT_DIR$/iHealth_dao/src/main/resources/com/yiwei/dao/OrderSettingDao.xml" />
+      <change beforePath="$PROJECT_DIR$/iHealth_interface/iHealth_interface.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/iHealth_interface/src/main/java/com/yiwei/service/OrderService.java" afterPath="$PROJECT_DIR$/iHealth_interface/src/main/java/com/yiwei/service/OrderService.java" />
+      <change beforePath="$PROJECT_DIR$/iHealth_interface/src/main/java/com/yiwei/service/OrderSettingService.java" afterPath="$PROJECT_DIR$/iHealth_interface/src/main/java/com/yiwei/service/OrderSettingService.java" />
+      <change beforePath="$PROJECT_DIR$/iHealth_jobs/iHealth_jobs.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/iHealth_jobs/src/main/java/com/yiwei/jobs/JobDemo.java" afterPath="$PROJECT_DIR$/iHealth_jobs/src/main/java/com/yiwei/jobs/JobDemo.java" />
+      <change beforePath="$PROJECT_DIR$/iHealth_jobs/src/main/resources/applicationContext-jobs.xml" afterPath="$PROJECT_DIR$/iHealth_jobs/src/main/resources/applicationContext-jobs.xml" />
+      <change beforePath="$PROJECT_DIR$/iHealth_jobs/src/test/java/com/yiwei/test/App.java" afterPath="$PROJECT_DIR$/iHealth_jobs/src/test/java/com/yiwei/test/App.java" />
+      <change beforePath="$PROJECT_DIR$/iHealth_mobile_web/iHealth_mobile_web.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/iHealth_parent.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/iHealth_pojo/iHealth_pojo.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/iHealth_service/iHealth_service.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/iHealth_service/src/main/java/com/yiwei/service/OrderSettingServiceImp.java" afterPath="$PROJECT_DIR$/iHealth_service/src/main/java/com/yiwei/service/OrderSettingServiceImp.java" />
+      <change beforePath="$PROJECT_DIR$/iHealth_web/iHealth_web.iml" afterPath="" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/iHealth_common/target/" />
@@ -55,6 +76,18 @@
         <item name="health: schema" type="c314c289:MysqlImplModel$Schema" />
       </path>
     </expand>
+    <select />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand />
     <select />
   </component>
   <component name="FileEditorManager">
@@ -134,6 +167,7 @@
         </entry>
       </file>
     </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="402" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -221,7 +255,6 @@
         <option value="$PROJECT_DIR$/iHealth_dao/src/main/java/com/yiwei/dao/MemberDao.java" />
         <option value="$PROJECT_DIR$/iHealth_service/src/main/java/com/yiwei/service/MemberServiceImp.java" />
         <option value="$PROJECT_DIR$/iHealth_web/src/main/webapp/Echarts.html" />
-        <option value="$PROJECT_DIR$/iHealth_interface/src/main/java/com/yiwei/service/OrderService.java" />
         <option value="$PROJECT_DIR$/iHealth_service/src/main/java/com/yiwei/service/OrderServiceImp.java" />
         <option value="$PROJECT_DIR$/iHealth_web/src/main/webapp/pages/report_setmeal.html" />
         <option value="$PROJECT_DIR$/iHealth_dao/src/main/java/com/yiwei/dao/OrderDao.java" />
@@ -244,6 +277,16 @@
         <option value="$PROJECT_DIR$/iHealth_dao/src/main/resources/jdbc.properties" />
         <option value="$PROJECT_DIR$/iHealth_web/src/main/java/com/yiwei/web/PermissionContoller.java" />
         <option value="$PROJECT_DIR$/iHealth_web/src/main/webapp/pages/main.html" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/iHealth_jobs/src/main/java/com/yiwei/jobs/JobDemo.java" />
+        <option value="$PROJECT_DIR$/iHealth_jobs/src/test/java/com/yiwei/test/App.java" />
+        <option value="$PROJECT_DIR$/iHealth_interface/src/main/java/com/yiwei/service/OrderService.java" />
+        <option value="$PROJECT_DIR$/iHealth_jobs/src/main/java/com/yiwei/jobs/ClearOrderSettingJob.java" />
+        <option value="$PROJECT_DIR$/iHealth_interface/src/main/java/com/yiwei/service/OrderSettingService.java" />
+        <option value="$PROJECT_DIR$/iHealth_service/src/main/java/com/yiwei/service/OrderSettingServiceImp.java" />
+        <option value="$PROJECT_DIR$/iHealth_dao/src/main/java/com/yiwei/dao/OrderSettingDao.java" />
+        <option value="$PROJECT_DIR$/iHealth_dao/src/main/resources/com/yiwei/dao/OrderSettingDao.xml" />
+        <option value="$PROJECT_DIR$/iHealth_jobs/src/main/resources/applicationContext-jobs.xml" />
         <option value="$PROJECT_DIR$/iHealth_web/src/main/java/com/yiwei/web/PermissionController.java" />
         <option value="$PROJECT_DIR$/iHealth_interface/src/main/java/com/yiwei/service/PermissionService.java" />
         <option value="$PROJECT_DIR$/iHealth_service/src/main/java/com/yiwei/service/PermissionServiceImpl.java" />
@@ -276,9 +319,9 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="F:\Java\apache-maven-3.3.9\repository" />
-        <option name="mavenHome" value="$PROJECT_DIR$/../../../apache-maven-3.3.9" />
-        <option name="userSettingsFile" value="F:\Java\apache-maven-3.3.9\conf\settings.xml" />
+        <option name="localRepository" value="F:\maven\apache-maven-3.3.9\repository" />
+        <option name="mavenHome" value="F:/maven/apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="F:\maven\apache-maven-3.3.9\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -292,21 +335,7 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="iHealth_parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="iHealth_parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Spring_Security" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Spring_Security" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+          <item name="iHealth_common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
       </expand>
       <select />
@@ -319,6 +348,8 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-6" />
     <option name="y" value="6" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-10" />
     <option name="width" value="1935" />
     <option name="height" value="1018" />
   </component>
@@ -359,7 +390,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -668,7 +702,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -714,7 +748,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.web">
+  <component name="RunManager" selected="JUnit.App.fun">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -754,6 +788,31 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+    </configuration>
+    <configuration name="App.fun" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.yiwei.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="iHealth_jobs" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.yiwei.test" />
+      <option name="MAIN_CLASS_NAME" value="com.yiwei.test.App" />
+      <option name="METHOD_NAME" value="fun" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
     </configuration>
     <configuration name="POITest.read" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -849,29 +908,6 @@
       </option>
       <envs />
       <patterns />
-    </configuration>
-    <configuration name="iHealth_service [tomcat7:run]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
-      <MavenSettings>
-        <option name="myGeneralSettings" />
-        <option name="myRunnerSettings" />
-        <option name="myRunnerParameters">
-          <MavenRunnerParameters>
-            <option name="profiles">
-              <set />
-            </option>
-            <option name="goals">
-              <list>
-                <option value="tomcat7:run" />
-              </list>
-            </option>
-            <option name="profilesMap">
-              <map />
-            </option>
-            <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="$PROJECT_DIR$/iHealth_service" />
-          </MavenRunnerParameters>
-        </option>
-      </MavenSettings>
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
@@ -1308,10 +1344,15 @@
       <item index="6" class="java.lang.String" itemvalue="JUnit.POITest.read" />
       <item index="7" class="java.lang.String" itemvalue="JUnit.POITest.writ" />
       <item index="8" class="java.lang.String" itemvalue="JUnit.SMSUtils.test" />
-      <item index="9" class="java.lang.String" itemvalue="Maven.iHealth_service [tomcat7:run]" />
+      <item index="9" class="java.lang.String" itemvalue="JUnit.App.fun" />
     </list>
     <recent_temporary>
       <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.App.fun" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.SMSUtils.test" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.POITest.writ" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.POITest.read" />
+        <item index="4" class="java.lang.String" itemvalue="Application.App" />
         <item index="0" class="java.lang.String" itemvalue="Maven.iHealth_service [tomcat7:run]" />
         <item index="1" class="java.lang.String" itemvalue="JUnit.SMSUtils.test" />
         <item index="2" class="java.lang.String" itemvalue="JUnit.POITest.writ" />
@@ -1367,6 +1408,9 @@
       <workItem from="1565451256183" duration="2366000" />
       <workItem from="1565454356462" duration="191000" />
       <workItem from="1565454666119" duration="1003000" />
+      <workItem from="1565504366845" duration="1881000" />
+      <workItem from="1565511984306" duration="1080000" />
+      <workItem from="1565513753953" duration="3260000" />
       <workItem from="1565486534265" duration="9339000" />
       <workItem from="1565499328593" duration="19027000" />
       <workItem from="1565574355060" duration="6662000" />
@@ -1419,11 +1463,11 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="POITest_read - 2019.08.01 at 17h 00m 25s.xml">
-      <configuration name="POITest.read" configurationId="JUnit" />
+    <history-entry file="App_fun - 2019.08.11 at 17h 21m 53s.xml">
+      <configuration name="App.fun" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="POITest_read - 2019.08.01 at 17h 07m 39s.xml">
-      <configuration name="POITest.read" configurationId="JUnit" />
+    <history-entry file="App_fun - 2019.08.11 at 17h 22m 19s.xml">
+      <configuration name="App.fun" configurationId="JUnit" />
     </history-entry>
     <history-entry file="POITest_writ - 2019.08.01 at 17h 17m 10s.xml">
       <configuration name="POITest.writ" configurationId="JUnit" />
@@ -1452,6 +1496,7 @@
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="265245000" />
+    <option name="totallyTimeSpent" value="234538000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1464,9 +1509,21 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7227891" sideWeight="0.50431967" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09455371" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24946004" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6937639" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282313" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
@@ -1476,11 +1533,14 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29774678" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40046838" sideWeight="0.49328318" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290398" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2585034" sideWeight="0.49568033" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24892704" sideWeight="0.46" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27155825" sideWeight="0.46" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20302376" sideWeight="0.54" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32993016" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24946004" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1587,6 +1647,7 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/iHealth_web/pom.xml">
     <entry file="file://$PROJECT_DIR$/iHealth_service/src/main/java/com/yiwei/service/ReportServiceImp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-286">
@@ -1806,6 +1867,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="301" column="36" lean-forward="false" selection-start-line="301" selection-start-column="36" selection-end-line="301" selection-end-column="36" />
+        <state relative-caret-position="609">
+          <caret line="56" column="35" lean-forward="false" selection-start-line="56" selection-start-column="14" selection-end-line="56" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -1884,6 +1947,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
           <caret line="68" column="36" lean-forward="false" selection-start-line="68" selection-start-column="36" selection-end-line="68" selection-end-column="36" />
+        <state relative-caret-position="1425">
+          <caret line="75" column="50" lean-forward="false" selection-start-line="75" selection-start-column="31" selection-end-line="75" selection-end-column="50" />
         </state>
       </provider>
     </entry>
@@ -1891,11 +1956,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2250">
           <caret line="75" column="50" lean-forward="false" selection-start-line="75" selection-start-column="31" selection-end-line="75" selection-end-column="50" />
+        <state relative-caret-position="1767">
+          <caret line="107" column="32" lean-forward="false" selection-start-line="107" selection-start-column="32" selection-end-line="107" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/iHealth_web/src/main/webapp/pages/permission.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="38" column="54" lean-forward="false" selection-start-line="38" selection-start-column="54" selection-end-line="38" selection-end-column="54" />
         <state relative-caret-position="372">
           <caret line="461" column="46" lean-forward="false" selection-start-line="461" selection-start-column="46" selection-end-line="461" selection-end-column="46" />
         </state>
@@ -1911,11 +1980,15 @@
             <marker date="1565486497535" expanded="true" signature="908:978" ph="insert into t_user_role... " />
             <marker date="1565486497535" expanded="true" signature="1064:1811" ph="UPDATE t_user... " />
           </folding>
+        <state relative-caret-position="513">
+          <caret line="34" column="87" lean-forward="false" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="87" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/iHealth_web/src/main/webapp/pages/role.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2033">
+          <caret line="120" column="24" lean-forward="false" selection-start-line="120" selection-start-column="24" selection-end-line="120" selection-end-column="24" />
         <state relative-caret-position="12990">
           <caret line="433" column="46" lean-forward="false" selection-start-line="433" selection-start-column="46" selection-end-line="433" selection-end-column="46" />
           <folding />
@@ -1924,6 +1997,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/iHealth_web/src/main/java/com/yiwei/web/RoleController.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="54" column="13" lean-forward="false" selection-start-line="28" selection-start-column="4" selection-end-line="54" selection-end-column="13" />
         <state relative-caret-position="3360">
           <caret line="119" column="60" lean-forward="false" selection-start-line="119" selection-start-column="60" selection-end-line="119" selection-end-column="60" />
           <folding />
@@ -1935,11 +2010,15 @@
         <state relative-caret-position="120">
           <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
           <folding />
+        <state relative-caret-position="385">
+          <caret line="477" column="44" lean-forward="true" selection-start-line="477" selection-start-column="44" selection-end-line="477" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/iHealth_service/src/main/java/com/yiwei/service/RoleServiceImp.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9063">
+          <caret line="477" column="44" lean-forward="false" selection-start-line="477" selection-start-column="44" selection-end-line="477" selection-end-column="44" />
         <state relative-caret-position="1800">
           <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
           <folding>
@@ -1953,6 +2032,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/iHealth_dao/src/main/java/com/yiwei/dao/RoleDao.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
         <state relative-caret-position="930">
           <caret line="37" column="11" lean-forward="false" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="11" />
           <folding />
@@ -1961,6 +2042,165 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/iHealth_dao/src/main/resources/com/yiwei/dao/RoleDao.xml">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="237" column="17" lean-forward="false" selection-start-line="237" selection-start-column="17" selection-end-line="237" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iHealth_common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="154" column="0" lean-forward="false" selection-start-line="154" selection-start-column="0" selection-end-line="154" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1007">
+          <caret line="53" column="20" lean-forward="false" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iHealth_jobs/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iHealth_jobs/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iHealth_jobs/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iHealth_jobs/src/main/java/com/yiwei/jobs/ClearImgJob.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iHealth_interface/src/main/java/com/yiwei/service/OrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="18" column="3" lean-forward="false" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iHealth_dao/src/main/resources/com/yiwei/dao/MemberDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1565499189856" expanded="true" signature="257:279" ph="select * fro... t_member" />
+            <marker date="1565499189856" expanded="true" signature="1113:1150" ph="delete from t_member... " />
+            <marker date="1565499189856" expanded="true" signature="1261:1300" ph="select * fro... t_member" />
+            <marker date="1565499189856" expanded="true" signature="1421:1478" ph="select * fro... t_member" />
+            <marker date="1565499189856" expanded="true" signature="1564:2587" ph="update t_member... " />
+            <marker date="1565499189856" expanded="true" signature="2729:2788" ph="select count... t_member" />
+            <marker date="1565499189856" expanded="true" signature="2913:2968" ph="select count... t_member" />
+            <marker date="1565499189856" expanded="true" signature="3109:3168" ph="select count... t_member" />
+            <marker date="1565499189856" expanded="true" signature="3264:3294" ph="select count... t_member" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iHealth_jobs/src/main/java/com/yiwei/jobs/JobDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iHealth_jobs/src/main/resources/applicationContext-jobs.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-151">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iHealth_jobs/src/test/java/com/yiwei/test/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iHealth_dao/src/main/resources/com/yiwei/dao/OrderSettingDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="e#496#500#0" expanded="true" />
+            <marker date="1565516427934" expanded="true" signature="290:349" ph="select * fro... t_ordersetting" />
+            <marker date="1565516427934" expanded="true" signature="450:495" ph="DELETE FROM t_ordersetting" />
+            <marker date="1565516427934" expanded="true" signature="450:507" ph="DELETE FROM t_ordersetting" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iHealth_dao/src/main/java/com/yiwei/dao/OrderSettingDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iHealth_service/src/main/java/com/yiwei/service/OrderSettingServiceImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="81" column="0" lean-forward="true" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+          <folding>
+            <element signature="e#2717#2718#0" expanded="true" />
+            <element signature="e#2772#2773#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iHealth_interface/src/main/java/com/yiwei/service/OrderSettingService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iHealth_jobs/src/main/resources/applicationContext-redis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-127">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iHealth_jobs/src/main/java/com/yiwei/jobs/ClearOrderSettingJob.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         <state relative-caret-position="1620">
           <caret line="57" column="37" lean-forward="false" selection-start-line="57" selection-start-column="37" selection-end-line="57" selection-end-column="37" />
           <folding>

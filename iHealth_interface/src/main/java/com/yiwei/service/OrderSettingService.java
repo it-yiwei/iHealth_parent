@@ -16,4 +16,7 @@ public interface OrderSettingService {
 
     //更改预约设置
     void editOrderSetting(String orderDate, Integer number);
+
+    void clearOrderSetting(String time);
+
 }
