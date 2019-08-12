@@ -1,0 +1,55 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--namespace==接口的全限定名-->
+<mapper namespace="com.yiwei.dao.PermissionDao">
+    <!--分页查询-->
+    <select id="selectByCondition" parameterType="String" resultType="com.yiwei.pojo.Permission">
+        SELECT * FROM t_permission
+        <if test="value != null and value.length > 0">
+            <where>
+                name LIKE '%${value}%'
+            </where>
+        </if>
+    </select>
+
+    <!--添加权限-->
+    <insert id="add" parameterType="com.yiwei.pojo.Permission">
+        INSERT into t_permission(name,keyword,description) VALUES (#{name},#{keyword},#{description})
+    </insert>
+
+    <!--根据id删除权限-->
+    <delete id="deleteById" parameterType="Integer">
+        DELETE FROM t_permission WHERE id = #{id}
+    </delete>
+
+    <!--弹出编辑款回显权限信息-->
+    <select id="findById" parameterType="Integer" resultType="com.yiwei.pojo.Permission">
+        SELECT * FROM t_permission WHERE id = #{id}
+    </select>
+
+    <!--编辑权限-->
+    <update id="edit" parameterType="com.yiwei.pojo.Permission">
+        UPDATE t_permission
+        <set>
+            <if test="name != null">
+                name = #{name},
+            </if>
+            <if test="keyword != null">
+                keyword = #{keyword},
+            </if>
+            <if test="description != null">
+                description = #{description},
+            </if>
+        </set>
+        WHERE id = #{id}
+    </update>
+
+    <!--查询全部权限-->
+    <select id="findAll" resultType="com.yiwei.pojo.Permission">
+        SELECT * FROM t_permission
+    </select>
+
+
+</mapper>
