@@ -41,6 +41,7 @@ public class ReportController {
 
     @RequestMapping("/getMemberReport")
     public Result getMemberReport(){
+
         //获取当前月份的前12个月和每月会员数量，存入map
         Calendar calendar = Calendar.getInstance();
 
@@ -75,6 +76,29 @@ public class ReportController {
         return new Result(true, MessageConstant.GET_MEMBER_NUMBER_REPORT_SUCCESS,map);
 
     }
+
+    /*
+    * 根据所选的时间段来动态展示此时间段内的每个月会员数量
+    * */
+
+    @RequestMapping("/showByDate")
+    public Result showByDate(String beginDate ,String endDate){
+
+        try {
+            //调用service，获取会员数据
+            Map map = memberService.showByDate(beginDate,endDate);
+
+            return new Result(true, MessageConstant.GET_MEMBER_NUMBER_REPORT_SUCCESS,map);
+
+        } catch (Exception e) {
+
+            e.printStackTrace();
+
+            return new Result(false,MessageConstant.GET_MEMBER_NUMBER_REPORT_FAIL);
+        }
+
+    }
+
 
     //获取每个套餐的预约人数
     @RequestMapping("/getSetmealReport")

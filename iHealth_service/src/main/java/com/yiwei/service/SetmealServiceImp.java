@@ -40,7 +40,9 @@ public class SetmealServiceImp implements SetmealService {
     //分页查询所有套餐
     @Override
     public PageResult findPage(QueryPageBean queryPageBean) {
+
         PageHelper.startPage(queryPageBean.getCurrentPage(), queryPageBean.getPageSize());
+
         Page<CheckGroup> page = setmealDao.selectByCondition(queryPageBean.getQueryString());
 
         //封装结果
